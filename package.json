@@ -1,17 +1,17 @@
 {
-  "name": "mean-template",
+  "name": "do-werk",
   "version": "0.0.0",
-  "description": "The MEAN Template",
+  "description": "Node.js and Angular app for finding bars and restaurants for coders and students to do their work while enjoying happy hours and other drink specials",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nss-cohort-2014-06-07/mean-template"
+    "url": "https://github.com/lizahcarter/do-werk"
   },
-  "author": "Chyld Medford <chyld.medford@gmail.com>",
+  "author": "Liza Carter <lizahcarter@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nss-cohort-2014-06-07/mean-template/issues"
+    "url": "https://github.com/lizahcarter/do-werk/issues"
   },
-  "homepage": "https://github.com/nss-cohort-2014-06-07/mean-template",
+  "homepage": "https://github.com/lizahcarter/do-werk",
   "dependencies": {
     "async": "^0.9.0",
     "bcrypt": "^0.8.0",

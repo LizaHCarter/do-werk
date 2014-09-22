@@ -1,11 +1,11 @@
 {
-  "name": "mean-template",
+  "name": "do-werk",
   "version": "0.0.0",
-  "homepage": "https://github.com/nss-cohort-2014-06-07/mean-template",
+  "homepage": "https://github.com/lizahcarter/do-werk",
   "authors": [
-    "Chyld Medford <chyld.medford@gmail.com>"
+    "Liza Carter <lizahcarter@gmail.com>"
   ],
-  "description": "The MEAN Template",
+  "description": "Node.js and Angular.js application for finding places to do work",
   "license": "MIT",
   "dependencies": {
     "angular": "1.3.0-rc.2",
