@@ -31,8 +31,16 @@ describe('User', function(){
     });
   });
 
+  describe('.findById', function(){
+    it('should find a user by its id', function(done){
+      User.findById('a00000000000000000000001', function(err, user){
+        expect(user.email).to.equal('bob@aol.com');
+        done();
+      });
+    });
+  });
 
- describe('#save', function(){
+  describe('#save', function(){
     it('should save a user', function(done){
       var u = new User(),
           o = {x:3, visible:'public', foo:'bar'};
