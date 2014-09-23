@@ -2,9 +2,14 @@
   "name": "do-werk",
   "version": "0.0.0",
   "description": "Node.js and Angular app for finding bars and restaurants for coders and students to do their work while enjoying happy hours and other drink specials",
+  "bin": {"coveralls" : "./node_modules/coveralls/bin/coveralls.js"},
   "repository": {
     "type": "git",
     "url": "https://github.com/lizahcarter/do-werk"
+  },
+  "scripts": {
+    "test": "mocha test --recursive -R spec",
+    "coveralls": "./node_modules/mocha/bin/mocha test --recursive -r blanket -R mocha-lcov-reporter | coveralls"
   },
   "author": "Liza Carter <lizahcarter@gmail.com>",
   "license": "MIT",
@@ -12,6 +17,11 @@
     "url": "https://github.com/lizahcarter/do-werk/issues"
   },
   "homepage": "https://github.com/lizahcarter/do-werk",
+  "config": {
+    "blanket": {
+      "pattern": "/app/"
+    }
+  },
   "dependencies": {
     "async": "^0.9.0",
     "bcrypt": "^0.8.0",
@@ -29,6 +39,7 @@
     "underscore": "^1.7.0"
   },
   "devDependencies": {
+    "blanket": "^1.1.6",
     "coveralls": "^2.11.2",
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.6.0",
@@ -39,6 +50,8 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-jscs": "^0.7.1",
     "grunt-shell": "^1.1.1",
-    "jshint-stylish": "^1.0.0"
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^1.21.4",
+    "mocha-lcov-reporter": "0.0.1"
   }
 }
