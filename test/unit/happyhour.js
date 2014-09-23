@@ -35,6 +35,14 @@ describe('happyHour', function(){
       });
     });
   });
+  describe('.findById', function(){
+    it('should find a happy hour by its id', function(done){
+      happyHour.findById('000000000000000000000001', function(err, place){
+        expect(place.name).to.equal('12 south taproom');
+        done();
+      });
+    });
+  });
 
 //Last braces
 });
