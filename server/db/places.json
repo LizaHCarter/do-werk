@@ -514,7 +514,7 @@
 {
   "_id":{"$oid":"000000000000000000000052"},
   "name":"listening room cafe",
-  "neighborhood":"",
+  "neighborhood":"sobro",
   "m":["660-1080", "2-for-1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
   "t":["660-1080", "2-for-1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
   "w":["660-1080", "2-for-1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],

@@ -8,7 +8,11 @@
       return $http.get('/happyhours');
     }
 
-    return {all:all};
+    function findToday(){
+      return $http.get('/happyhours/today');
+    }
+
+    return {all:all, findToday:findToday};
   }]);
 })();
 

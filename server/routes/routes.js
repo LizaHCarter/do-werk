@@ -7,7 +7,6 @@ var morgan         = require('morgan'),
     RedisStore     = require('connect-redis')(session),
     debug          = require('../lib/debug'),
     security       = require('../lib/security'),
-    home           = require('../controllers/home'),
     users          = require('../controllers/users'),
     happyhours     = require('../controllers/happyhours');
 
@@ -22,15 +21,16 @@ module.exports = function(app, express){
   app.use(security.authenticate);
   app.use(debug.info);
 
-  app.get('/home', home.index);
+  app.get('/home', happyhours.today);
   app.post('/register', users.register);
   app.post('/login', users.login);
+  app.get('/happyhours', happyhours.index);
+  app.get('/happyhours/today', happyhours.today);
 
   app.use(security.bounce);
   app.delete('/logout', users.logout);
   app.get('/profile/edit', users.edit);
   app.put('/profile', users.update);
-  app.get('/happyhours', happyhours.index);
 
   console.log('Express: Routes Loaded');
 };

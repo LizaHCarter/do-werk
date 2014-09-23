@@ -7,7 +7,8 @@ table.table.table-bordered.table-responsive
       th when
       th what
   tbody
-    tr
-      td
-      td
-      td
+    tr(ng-repeat='h in happyhours')
+      td {{h.name}}
+      td {{h[date][0]}}
+      td {{h[date][1]}}
+

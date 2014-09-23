@@ -9,6 +9,7 @@
     happyHour.all().then(function(response){
       $scope.happyhours = response.data.happyhours;
     });
+
   }]);
 })();
 

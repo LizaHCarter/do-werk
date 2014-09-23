@@ -1,1 +1,15 @@
 h3 {{title}}
+
+.row
+  .col-xs-2
+  .col-xs-8
+    table#all.table.table-bordered
+      thead
+        tr
+          th place
+          th neighborhood
+      tbody
+        tr(ng-repeat='h in happyhours')
+          td {{h.name}}
+          td {{h.neighborhood}}
+  .col-xs-2

@@ -43,6 +43,31 @@ describe('happyHour', function(){
       });
     });
   });
+  describe('findByNeighborhood', function(){
+    it('should find all places for a neighborhood', function(done){
+      happyHour.findByNeighborhood('sobro', function(err, places){
+        expect(places.length).to.equal(2);
+        done();
+      });
+    });
+  });
+
+  describe('findByDay', function(){
+    it('should find all places with happy hours on a given day', function(done){
+      happyHour.findByDay('m', function(err, places){
+        expect(places.length).to.equal(53);
+        done();
+      });
+    });
+  });
+  describe('findToday', function(){
+    it('should find all places with happy hours today', function(done){
+      happyHour.findToday(function(err, places){
+        expect(places.length).to.equal(56);
+        done();
+      });
+    });
+  });
 
 //Last braces
 });
