@@ -19,7 +19,7 @@
   "homepage": "https://github.com/lizahcarter/do-werk",
   "config": {
     "blanket": {
-      "pattern": "/app/"
+      "pattern": "/server/"
     }
   },
   "dependencies": {
