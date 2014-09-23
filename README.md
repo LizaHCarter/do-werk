@@ -1,7 +1,7 @@
-## name of project
+do werk - NSS Capstone Project
 ### Code Badges
-build status icon
-coverage status icon
+[![Build Status](https://travis-ci.org/LizaHCarter/do-werk.svg)](https://travis-ci.org/LizaHCarter/do-werk)
+[![Coverage Status](https://coveralls.io/repos/LizaHCarter/do-werk/badge.png)](https://coveralls.io/r/LizaHCarter/do-werk)
 
 ### Screenshots
 ![Image1](https://raw.githubusercontent.com/nss-cohort-2014-06-07/express-template/master/docs/screenshots/one.jpg)
