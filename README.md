@@ -1,4 +1,4 @@
-## name of project
+do werk - NSS Capstone Project
 ### Code Badges
 [![Build Status](https://travis-ci.org/LizaHCarter/do-werk.svg)](https://travis-ci.org/LizaHCarter/do-werk)
 [![Coverage Status](https://coveralls.io/repos/LizaHCarter/do-werk/badge.png)](https://coveralls.io/r/LizaHCarter/do-werk)
