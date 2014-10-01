@@ -9,6 +9,6 @@ table.table.table-bordered.table-responsive
   tbody
     tr(ng-repeat='h in happyhours')
       td {{h.name}}
-      td {{h[date][0]}}
-      td {{h[date][1]}}
+      td {{(h[date][0]) === 'all' ? 'all day' : ((h[date][0]/60) > 12 ? (h[date][0]/60 - 12) : (h[date][0]/60)) +'-'+ (h[date][1]/60 - 12)}}
+      td {{h[date][2]}}
 

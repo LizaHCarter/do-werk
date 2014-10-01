@@ -30,6 +30,7 @@
         case 6:
           $scope.date = 's';
       }
+      debugger;
       $scope.happyhours = response.data.happyhours;
     });
   }]);

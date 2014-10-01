@@ -5,6 +5,7 @@
   .controller('HappyHoursCtrl', ['$scope', 'happyHour', function($scope, happyHour){
     $scope.title = 'all happy hours';
     $scope.happyhours = [];
+    $scope.business = '12 south taproom';
 
     happyHour.all().then(function(response){
       $scope.happyhours = response.data.happyhours;

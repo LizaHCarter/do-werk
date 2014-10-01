@@ -2,613 +2,613 @@
   "_id":{"$oid":"000000000000000000000001"},
   "name":"12 south taproom",
   "neighborhood":"12 south",
-  "m":["all", "$5 low alcohol pints for $3"],
-  "t":["all", "$1 off can beer"],
-  "w":["1140-1320", "$10 off bottles of wine, $5 off 22oz bottles"],
-  "th":["1200-1320", "$1 off local draught beer"],
-  "s":["all", "$3 guinness, $5 big corona and red stripe, $10 off bottles of wine"],
-  "su":["all", "$3 mimosas and manmosas, happy hour all day"]
+  "m":["all","", "$5 low alcohol pints for $3"],
+  "t":["all","", "$1 off can beer"],
+  "w":["1140","1320", "$10 off bottles of wine, $5 off 22oz bottles"],
+  "th":["1200","1320", "$1 off local draught beer"],
+  "s":["all","", "$3 guinness, $5 big corona and red stripe, $10 off bottles of wine"],
+  "su":["all","", "$3 mimosas and manmosas, happy hour all day"]
 }
 {
   "_id":{"$oid":"000000000000000000000002"},
   "name":"edley's bar-b-que",
   "neighborhood":"12 south",
-  "m":["1200-1320", "Trivia night"],
-  "w":["all", "$5 bushwhackers"],
-  "th":["all", "2-for-1 beers"]
+  "m":["1200","1320", "Trivia night"],
+  "w":["all","", "$5 bushwhackers"],
+  "th":["all","", "2 for 1 beers"]
 }
 {
   "_id":{"$oid":"000000000000000000000003"},
   "name":"frothy monkey",
   "neighborhood":"12 south",
-  "w":["1020-1140", "$15 for 3 four ounce pours or 4 three ounce pours"]
+  "w":["1020","1140", "$15 for 3 four ounce pours or 4 three ounce pours"]
 }
 {
   "_id":{"$oid":"000000000000000000000004"},
   "name":"chago's cantina",
   "neighborhood":"belmont",
-  "m":["900-1140", "half price chago-rita's, domestic drafts, and $20 buckets of 6 coronas"],
-  "t":["900-1140", "half price chago-rita's, domestic drafts, and $20 buckets of 6 coronas"],
-  "w":["900-1140", "half price chago-rita's, domestic drafts, and $20 buckets of 6 coronas"],
-  "th":["900-1140", "half price chago-rita's, domestic drafts, and $20 buckets of 6 coronas"],
-  "f":["900-1140", "half price chago-rita's, domestic drafts, and $20 buckets of 6 coronas"],
-  "s":["900-1140", "half price chago-rita's, domestic drafts, and $20 buckets of 6 coronas"],
-  "su":["all", "half price sangria"]
+  "m":["900","1140", "half price chagorita's, domestic drafts, and $20 buckets of 6 coronas"],
+  "t":["900","1140", "half price chagorita's, domestic drafts, and $20 buckets of 6 coronas"],
+  "w":["900","1140", "half price chagorita's, domestic drafts, and $20 buckets of 6 coronas"],
+  "th":["900","1140", "half price chagorita's, domestic drafts, and $20 buckets of 6 coronas"],
+  "f":["900","1140", "half price chagorita's, domestic drafts, and $20 buckets of 6 coronas"],
+  "s":["900","1140", "half price chagorita's, domestic drafts, and $20 buckets of 6 coronas"],
+  "su":["all","", "half price sangria"]
 }
 {
   "_id":{"$oid":"000000000000000000000005"},
   "name":"smokin thighs",
   "neighborhood":"berry hill",
-  "m":["900-1140", "2-for-1 well drinks, $5 well shots and high gravity draft beers, $2 moonshine tastings, $1 off wine and appetizers "],
-  "t":["900-1140", "2-for-1 well drinks, $5 well shots and high gravity draft beers, $2 moonshine tastings, $1 off wine and appetizers "],
-  "w":["900-1140", "2-for-1 well drinks, $5 well shots and high gravity draft beers, $2 moonshine tastings, $1 off wine and appetizers "],
-  "th":["900-1140", "2-for-1 well drinks, $5 well shots and high gravity draft beers, $2 moonshine tastings, $1 off wine and appetizers "],
-  "f":["900-1140", "2-for-1 well drinks, $5 well shots and high gravity draft beers, $2 moonshine tastings, $1 off wine and appetizers "]
+  "m":["900","1140", "2 for 1 well drinks, $5 well shots and high gravity draft beers, $2 moonshine tastings, $1 off wine and appetizers "],
+  "t":["900","1140", "2 for 1 well drinks, $5 well shots and high gravity draft beers, $2 moonshine tastings, $1 off wine and appetizers "],
+  "w":["900","1140", "2 for 1 well drinks, $5 well shots and high gravity draft beers, $2 moonshine tastings, $1 off wine and appetizers "],
+  "th":["900","1140", "2 for 1 well drinks, $5 well shots and high gravity draft beers, $2 moonshine tastings, $1 off wine and appetizers "],
+  "f":["900","1140", "2 for 1 well drinks, $5 well shots and high gravity draft beers, $2 moonshine tastings, $1 off wine and appetizers "]
 }
 {
   "_id":{"$oid":"000000000000000000000006"},
   "name":"dan mcguinness",
   "neighborhood":"demonbreun",
-  "m":["660-1140", "2-for-1 fireball, mcguinness lite and amber draft pints, domestic bottles, well drinks, $2.50 house wine, $6 burger and fries"],
-  "t":["660-1140", "2-for-1 fireball, mcguinness lite and amber draft pints, domestic bottles, well drinks, $2.50 house wine, $8 turkey blt and fries"],
-  "w":["660-1140", "2-for-1 fireball, mcguinness lite and amber draft pints, domestic bottles, well drinks, $2.50 house wine, $8 chicken and chips"],
-  "th":["660-1140", "2-for-1 fireball, mcguinness lite and amber draft pints, domestic bottles, well drinks, $2.50 house wine, $6 fish and chips"],
-  "f":["660-1140", "2-for-1 fireball, mcguinness lite and amber draft pints, domestic bottles, well drinks, $2.50 house wine, $8 drunken chix philly and fries"],
-  "s":["all", "$3 mcguinness lite and amber draft pints"],
-  "su":["660-1020", "$12 bottomless mimosas and bloody mary bar, 2-for-1 draft pints"]
+  "m":["660","1140", "2 for 1 fireball, mcguinness lite and amber draft pints, domestic bottles, well drinks, $2.50 house wine, $6 burger and fries"],
+  "t":["660","1140", "2 for 1 fireball, mcguinness lite and amber draft pints, domestic bottles, well drinks, $2.50 house wine, $8 turkey blt and fries"],
+  "w":["660","1140", "2 for 1 fireball, mcguinness lite and amber draft pints, domestic bottles, well drinks, $2.50 house wine, $8 chicken and chips"],
+  "th":["660","1140", "2 for 1 fireball, mcguinness lite and amber draft pints, domestic bottles, well drinks, $2.50 house wine, $6 fish and chips"],
+  "f":["660","1140", "2 for 1 fireball, mcguinness lite and amber draft pints, domestic bottles, well drinks, $2.50 house wine, $8 drunken chix philly and fries"],
+  "s":["all","", "$3 mcguinness lite and amber draft pints"],
+  "su":["660","1020", "$12 bottomless mimosas and bloody mary bar, 2","for","1 draft pints"]
 }
 {
   "_id":{"$oid":"000000000000000000000007"},
   "name":"little chicago",
   "neighborhood":"demonbreun",
-  "m":["840-1080", "2-for-1 beer"],
-  "t":["840-1080", "2-for-1 beer"],
-  "w":["840-1080", "2-for-1 beer"],
-  "th":["840-1080", "2-for-1 beer"],
-  "f":["840-1080", "2-for-1 beer"]
+  "m":["840","1080", "2 for 1 beer"],
+  "t":["840","1080", "2 for 1 beer"],
+  "w":["840","1080", "2 for 1 beer"],
+  "th":["840","1080", "2 for 1 beer"],
+  "f":["840","1080", "2 for 1 beer"]
 }
 {
   "_id":{"$oid":"000000000000000000000008"},
   "name":"south",
   "neighborhood":"demonbreun",
-  "t":["all", "2-for-1 house cocktails, wine, domestic beers, and appetizers"],
-  "w":["all", "1/2 off everything for ladies"],
-  "th":["all", "$3 appetizers, domestics, and house wine"],
-  "f":["all", "$14 domestic buckets and $18 import buckets"],
-  "su":["all", "$15 bottomless mimosas and bloody marys"]
+  "t":["all","", "2 for 1 house cocktails, wine, domestic beers, and appetizers"],
+  "w":["all","", "1/2 off everything for ladies"],
+  "th":["all","", "$3 appetizers, domestics, and house wine"],
+  "f":["all","", "$14 domestic buckets and $18 import buckets"],
+  "su":["all","", "$15 bottomless mimosas and bloody marys"]
 }
 {
   "_id":{"$oid":"000000000000000000000009"},
   "name":"tin roof",
   "neighborhood":"demonbreun",
-  "m":["840-1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinks, and $5 chicken quesadillas"],
-  "t":["840-1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinks, and $5 chicken quesadillas"],
-  "w":["840-1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinks, and $5 chicken quesadillas"],
-  "th":["840-1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinkgs, and $5 chicken quesadillas"],
-  "f":["840-1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinks, and $5 chicken quesadillas"],
-  "s":["840-1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinks, and $5 chicken quesadillas"]
+  "m":["840","1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinks, and $5 chicken quesadillas"],
+  "t":["840","1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinks, and $5 chicken quesadillas"],
+  "w":["840","1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinks, and $5 chicken quesadillas"],
+  "th":["840","1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinkgs, and $5 chicken quesadillas"],
+  "f":["840","1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinks, and $5 chicken quesadillas"],
+  "s":["840","1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinks, and $5 chicken quesadillas"]
 }
 {
   "_id":{"$oid":"000000000000000000000010"},
   "name":"bailey's",
   "neighborhood":"downtown",
-  "m":["900-1140", "$2.50 bud. bud light, miller lite, and coors lite, $3 long island teas and margaritas"],
-  "t":["all", "$2.50 draft beer"],
-  "w":["all", "$2.50 blue moon, leinenkugel sunset wheat, shock top, and golden wheat drafts"],
-  "th":["900-1140", "$2.50 bud, bud light, miller lite, and coors light draft, $3 long island teas and margaritas"],
-  "f":["900-1140", "$2.50 bud, bud light, miller lite, and coors light draft, $3 long island teas and margaritas"],
-  "s":["all", "$15 bud and bud light buckets"],
-  "su":["all", "$15 miller lite and coors light buckets"]
+  "m":["900","1140", "$2.50 bud. bud light, miller lite, and coors lite, $3 long island teas and margaritas"],
+  "t":["all","", "$2.50 draft beer"],
+  "w":["all","", "$2.50 blue moon, leinenkugel sunset wheat, shock top, and golden wheat drafts"],
+  "th":["900","1140", "$2.50 bud, bud light, miller lite, and coors light draft, $3 long island teas and margaritas"],
+  "f":["900","1140", "$2.50 bud, bud light, miller lite, and coors light draft, $3 long island teas and margaritas"],
+  "s":["all","", "$15 bud and bud light buckets"],
+  "su":["all","", "$15 miller lite and coors light buckets"]
 }
 {
   "_id":{"$oid":"000000000000000000000011"},
   "name":"flying saucer",
   "neighborhood":"downtown",
-  "m":["all", "$3 most pints"],
-  "t":["1170-1380", "trivia night"],
-  "th":["1050-1170", "$4 american pints"],
-  "f":["960-1200", "$1 off most draft brews"]
+  "m":["all","", "$3 most pints"],
+  "t":["1170","1380", "trivia night"],
+  "th":["1050","1170", "$4 american pints"],
+  "f":["960","1200", "$1 off most draft brews"]
 }
 {
   "_id":{"$oid":"000000000000000000000012"},
   "name":"melting pot",
   "neighborhood":"downtown",
-  "m":["990-1110", "$3 beers, $6 wines, and selected cocktail specials"],
-  "t":["990-1110", "$3 beers, $6 wines, and selected cocktail specials"],
-  "w":["990-1110", "$3 beers, $6 wines, and selected cocktail specials"],
-  "th":["990-1110", "$3 beers, $6 wines, and selected cocktail specials"]
+  "m":["990","1110", "$3 beers, $6 wines, and selected cocktail specials"],
+  "t":["990","1110", "$3 beers, $6 wines, and selected cocktail specials"],
+  "w":["990","1110", "$3 beers, $6 wines, and selected cocktail specials"],
+  "th":["990","1110", "$3 beers, $6 wines, and selected cocktail specials"]
 }
 {
   "_id":{"$oid":"000000000000000000000013"},
   "name":"riverfront tavern",
   "neighborhood":"downtown",
-  "m":["all", "$3 blue moon drafts and $5 flavored vodka bombs"],
-  "t":["all", "$3 sweetwater drafts and $4 well drinks"],
-  "w":["all", "half-priced pints and pitchers"],
-  "th":["all", "$5 martinis"],
-  "f":["all", "$3 yuengling drafts and bottles"],
-  "s":["all", "$3 yazoo pints"],
-  "su":["all", "half-priced pints and pitchers"]
+  "m":["all","", "$3 blue moon drafts and $5 flavored vodka bombs"],
+  "t":["all","", "$3 sweetwater drafts and $4 well drinks"],
+  "w":["all","", "half","priced pints and pitchers"],
+  "th":["all","", "$5 martinis"],
+  "f":["all","", "$3 yuengling drafts and bottles"],
+  "s":["all","", "$3 yazoo pints"],
+  "su":["all","", "half","priced pints and pitchers"]
 }
 {
   "_id":{"$oid":"000000000000000000000014"},
   "name":"rodizio grill",
   "neighborhood":"downtown",
-  "m":["960-1080", "half price local craft drafts and brazilian beers, $5 caipirinhas, $3 brazilian apps"],
-  "t":["960-1080", "half price local craft drafts and brazilian beers, $5 caipirinhas, $3 brazilian apps"],
-  "w":["960-1080", "half price local craft drafts and brazilian beers, $5 caipirinhas, $3 brazilian apps"],
-  "th":["960-1080", "half-price local craft drafts and brazilian beers, $5 caipirinhas, $3 brazilian apps"]
+  "m":["960","1080", "half price local craft drafts and brazilian beers, $5 caipirinhas, $3 brazilian apps"],
+  "t":["960","1080", "half price local craft drafts and brazilian beers, $5 caipirinhas, $3 brazilian apps"],
+  "w":["960","1080", "half price local craft drafts and brazilian beers, $5 caipirinhas, $3 brazilian apps"],
+  "th":["960","1080", "half","price local craft drafts and brazilian beers, $5 caipirinhas, $3 brazilian apps"]
 }
 {
   "_id":{"$oid":"000000000000000000000015"},
   "name":"417 union",
   "neighborhood":"downtown",
-  "th":["900-1140", "$1 off draft and bottled beer, $4 well drinks, and $5 flavored martinis"],
-  "f":["900-1140", "$1 off draft and bottled beer, $4 well drinks and $5 flavored martinis"]
+  "th":["900","1140", "$1 off draft and bottled beer, $4 well drinks, and $5 flavored martinis"],
+  "f":["900","1140", "$1 off draft and bottled beer, $4 well drinks and $5 flavored martinis"]
 }
 {
   "_id":{"$oid":"000000000000000000000016"},
   "name":"3 crow bar",
   "neighborhood":"east nashville",
-  "m":["660-1140", "$1 off all drinks"],
-  "t":["660-1140", "$1 off all drinks"],
-  "w":["1140-1440", "2-for-1 beer and liquor"],
-  "th":["660-1140", "$1 off all drinks, trivia at 8"],
-  "f":["660-1140", "$1 off all drinks"],
-  "su":["720-1140", "2-for-1 beer and liquor"]
+  "m":["660","1140", "$1 off all drinks"],
+  "t":["660","1140", "$1 off all drinks"],
+  "w":["1140","1440", "2 for 1 beer and liquor"],
+  "th":["660","1140", "$1 off all drinks, trivia at 8"],
+  "f":["660","1140", "$1 off all drinks"],
+  "su":["720","1140", "2 for 1 beer and liquor"]
 }
 {
   "_id":{"$oid":"000000000000000000000017"},
   "name":"beyond the edge",
   "neighborhood":"east nashville",
-  "m":["900-1140", "2-for-1 bottled and draft beer"],
-  "t":["900-1140", "2-for-1 bottled and draft beer"],
-  "w":["900-1140", "2-for-1 bottled and draft beer"],
-  "th":["900-1140", "2-for-1 bottled and draft beer"],
-  "f":["900-1140", "2-for-1 bottled and draft beer"],
-  "s":["1140-1320", "2-for-1 bottled and draft beer"],
-  "su":["all", "2-for-1 bottled and draft beer"]
+  "m":["900","1140", "2 for 1 bottled and draft beer"],
+  "t":["900","1140", "2 for 1 bottled and draft beer"],
+  "w":["900","1140", "2 for 1 bottled and draft beer"],
+  "th":["900","1140", "2 for 1 bottled and draft beer"],
+  "f":["900","1140", "2 for 1 bottled and draft beer"],
+  "s":["1140","1320", "2 for 1 bottled and draft beer"],
+  "su":["all","", "2 for 1 bottled and draft beer"]
 }
 {
   "_id":{"$oid":"000000000000000000000018"},
   "name":"drifters bbq",
   "neighborhood":"east nashville",
-  "m":["900-1140", "2-for-1 beers and select liquors, trivia from 8-10"],
-  "t":["900-1140", "2-for-1 beers and select liquors, karaoke at 9"],
-  "w":["900-1140", "2-for-1 beers and select liquors"],
-  "th":["900-1140", "2-for-1 beers and select liquors"],
-  "f":["900-1140", "2-for-1 beers and select liquors"],
-  "su":["900-1140", "2-for-1 beers and select liquors"]
+  "m":["900","1140", "2 for 1 beers and select liquors, trivia from 8","10"],
+  "t":["900","1140", "2 for 1 beers and select liquors, karaoke at 9"],
+  "w":["900","1140", "2 for 1 beers and select liquors"],
+  "th":["900","1140", "2 for 1 beers and select liquors"],
+  "f":["900","1140", "2 for 1 beers and select liquors"],
+  "su":["900","1140", "2 for 1 beers and select liquors"]
 }
 {
   "_id":{"$oid":"000000000000000000000019"},
   "name":"family wash",
   "neighborhood":"east nashville",
-  "t":["all", "$10 draft beer and shepherd's pie"],
-  "th":["all", "$3.75 draft beers"]
+  "t":["all","", "$10 draft beer and shepherd's pie"],
+  "th":["all","", "$3.75 draft beers"]
 }
 {
   "_id":{"$oid":"000000000000000000000020"},
   "name":"pomodoro grill",
   "neighborhood":"east nashville",
-  "m":["990-1110", "$5 wine, martinis, and apps, $3 beer"],
-  "t":["990-1110", "$5 wine, martinis, and apps, $3 beer"],
-  "w":["990-1110", "$5 wine, martinis, and apps, $3 beer"],
-  "th":["990-1110", "$5 wine, martinis, and apps, $3 beer"],
-  "f":["990-1110", "$5 wine, martinis, and apps, $3 beer"],
-  "s":["990-1110", "$5 wine, martinis, and apps, $3 beer"],
-  "su":["990-1110", "$5 wine, martinis, and apps, $3 beer"]
+  "m":["990","1110", "$5 wine, martinis, and apps, $3 beer"],
+  "t":["990","1110", "$5 wine, martinis, and apps, $3 beer"],
+  "w":["990","1110", "$5 wine, martinis, and apps, $3 beer"],
+  "th":["990","1110", "$5 wine, martinis, and apps, $3 beer"],
+  "f":["990","1110", "$5 wine, martinis, and apps, $3 beer"],
+  "s":["990","1110", "$5 wine, martinis, and apps, $3 beer"],
+  "su":["990","1110", "$5 wine, martinis, and apps, $3 beer"]
 }
 {
   "_id":{"$oid":"000000000000000000000021"},
   "name":"tenn sixteen",
   "neighborhood":"east nashville",
-  "m":["660-1140", "$1 off drinks"],
-  "t":["660-1140", "$1 off drinks"],
-  "w":["660-1140", "$1 off drinks"],
-  "th":["1140-1320", "2-for-1 everything"],
-  "f":["660-1140", "$1 off drinks"],
-  "su":["720-1320", "2-for-1 everything"]
+  "m":["660","1140", "$1 off drinks"],
+  "t":["660","1140", "$1 off drinks"],
+  "w":["660","1140", "$1 off drinks"],
+  "th":["1140","1320", "2 for 1 everything"],
+  "f":["660","1140", "$1 off drinks"],
+  "su":["720","1320", "2 for 1 everything"]
 }
 {
   "_id":{"$oid":"000000000000000000000022"},
   "name":"two ten jack",
   "neighborhood":"east nashville",
-  "m":["960-1080", "2-for-1 asahi, kirin, and pbr, $5 house white and red wine, $5 jack juice, infused shochu, $3 steamed edamame, $5 crispy rice spicy tuna"],
-  "t":["960-1080", "2-for-1 asahi, kirin, and pbr, $5 house white and red wine, $5 jack juice, infused shochu, $3 steamed edamame, $5 crispy rice spicy tuna"],
-  "w":["960-1080", "2-for-1 asahi, kirin, and pbr, $5 house white and red wine, $5 jack juice, infused shochu, $3 steamed edamame, $5 crispy rice spicy tuna"],
-  "th":["960-1080", "2-for-1 asahi, kirin, and pbr, $5 house white and red wine, $5 jack juice, infused shochu, $3 steamed edamame, $5 crispy rice spicy tuna"]
+  "m":["960","1080", "2 for 1 asahi, kirin, and pbr, $5 house white and red wine, $5 jack juice, infused shochu, $3 steamed edamame, $5 crispy rice spicy tuna"],
+  "t":["960","1080", "2 for 1 asahi, kirin, and pbr, $5 house white and red wine, $5 jack juice, infused shochu, $3 steamed edamame, $5 crispy rice spicy tuna"],
+  "w":["960","1080", "2 for 1 asahi, kirin, and pbr, $5 house white and red wine, $5 jack juice, infused shochu, $3 steamed edamame, $5 crispy rice spicy tuna"],
+  "th":["960","1080", "2 for 1 asahi, kirin, and pbr, $5 house white and red wine, $5 jack juice, infused shochu, $3 steamed edamame, $5 crispy rice spicy tuna"]
 }
 {
   "_id":{"$oid":"000000000000000000000023"},
   "name":"bella napoli",
   "neighborhood":"edgehill",
-  "m":["960-1080", "half price domestic beers, $4 well drinks, and $5 house wine"],
-  "t":["960-1080", "half price domestic beers, $4 well drinks, and $5 house wine"],
-  "w":["960-1080", "half price domestic beers, $4 well drinks, and $5 house wine"],
-  "th":["960-1080", "half price domestic beers, $4 well drinks, and $5 house wine"]
+  "m":["960","1080", "half price domestic beers, $4 well drinks, and $5 house wine"],
+  "t":["960","1080", "half price domestic beers, $4 well drinks, and $5 house wine"],
+  "w":["960","1080", "half price domestic beers, $4 well drinks, and $5 house wine"],
+  "th":["960","1080", "half price domestic beers, $4 well drinks, and $5 house wine"]
 }
 {
   "_id":{"$oid":"000000000000000000000024"},
   "name":"aladdin's",
   "neighborhood":"elliston place",
-  "m":["900-1200", "half price beer and $8 hookah"],
-  "t":["900-1200", "half price beer and $8 hookah"],
-  "w":["900-1200", "half price beer and $8 hookah"],
-  "th":["900-1200", "half price beer and $8 hookah"],
-  "f":["900-1200", "half price beer and $8 hookah"],
-  "s":["900-1200", "half price beer and $8 hookah"],
-  "su":["900-1200", "half price beer and $8 hookah"]
+  "m":["900","1200", "half price beer and $8 hookah"],
+  "t":["900","1200", "half price beer and $8 hookah"],
+  "w":["900","1200", "half price beer and $8 hookah"],
+  "th":["900","1200", "half price beer and $8 hookah"],
+  "f":["900","1200", "half price beer and $8 hookah"],
+  "s":["900","1200", "half price beer and $8 hookah"],
+  "su":["900","1200", "half price beer and $8 hookah"]
 }
 {
   "_id":{"$oid":"000000000000000000000025"},
   "name":"hurry back",
   "neighborhood":"elliston place",
-  "m":["720-1080", "$1 off low-gravity beers"],
-  "t":["720-1080", "2-for-1 local brews"],
-  "w":["720-1080", "$1 off low-gravity beers"],
-  "th":["720-1080", "2-for-1 local brews"],
-  "f":["720-1080", "$1 off all low gravity beers"]
+  "m":["720","1080", "$1 off low","gravity beers"],
+  "t":["720","1080", "2 for 1 local brews"],
+  "w":["720","1080", "$1 off low","gravity beers"],
+  "th":["720","1080", "2 for 1 local brews"],
+  "f":["720","1080", "$1 off all low gravity beers"]
 }
 {
   "_id":{"$oid":"000000000000000000000026"},
   "name":"germantown cafe",
   "neighborhood":"germantown",
-  "m":["900-1140", "$1 off house liquor, wine, and beer, $5 app specials"],
-  "t":["900-1140", "$1 off house liquor, wine, and beer, $5 app specials"],
-  "w":["900-1140", "$1 off house liquor, wine, and beer, $5 app specials"],
-  "th":["900-1140", "$1 off house liquor, wine, and beer, $5 app specials"],
-  "f":["900-1140", "$1 off house liquor, wine, and beer, $5 app specials"]
+  "m":["900","1140", "$1 off house liquor, wine, and beer, $5 app specials"],
+  "t":["900","1140", "$1 off house liquor, wine, and beer, $5 app specials"],
+  "w":["900","1140", "$1 off house liquor, wine, and beer, $5 app specials"],
+  "th":["900","1140", "$1 off house liquor, wine, and beer, $5 app specials"],
+  "f":["900","1140", "$1 off house liquor, wine, and beer, $5 app specials"]
 }
 {
   "_id":{"$oid":"000000000000000000000027"},
   "name":"mad platter",
   "neighborhood":"germantown",
-  "th":["960-1140", "$5 select red and white wines, 2-for-1 beers and discount apps"]
+  "th":["960","1140", "$5 select red and white wines, 2","for","1 beers and discount apps"]
 }
 {
   "_id":{"$oid":"000000000000000000000028"},
   "name":"alegria",
   "neighborhood":"green hills",
-  "m":["870-1110", "2-for-1 house margaritas and draft beers, $5 house wines and sangria"],
-  "t":["870-1110", "2-for-1 house margaritas and draft beers, $5 house wines and sangria"],
-  "w":["870-1110", "2-for-1 house margaritas and draft beers, $5 house wines and sangria"],
-  "th":["870-1110", "2-for-1 house margaritas and draft beers, $5 house wines and sangria"],
-  "f":["870-1110", "2-for-1 house margaritas and draft beers, $5 house wines and sangria"]
+  "m":["870","1110", "2 for 1 house margaritas and draft beers, $5 house wines and sangria"],
+  "t":["870","1110", "2 for 1 house margaritas and draft beers, $5 house wines and sangria"],
+  "w":["870","1110", "2 for 1 house margaritas and draft beers, $5 house wines and sangria"],
+  "th":["870","1110", "2 for 1 house margaritas and draft beers, $5 house wines and sangria"],
+  "f":["870","1110", "2 for 1 house margaritas and draft beers, $5 house wines and sangria"]
 }
 {
   "_id":{"$oid":"000000000000000000000029"},
   "name":"crow's nest",
   "neighborhood":"green hills",
-  "m":["840-1140", "half off apps, beer, and well drinks"],
-  "t":["840-1140", "half off apps, beer, and well drinks"],
-  "w":["840-1140", "half off apps, beer, and well drinks"],
-  "th":["840-1140", "half off apps, beer, and well drinks"],
-  "f":["840-1140", "half off apps, beer, and well drinks"],
-  "s":["660-900", "$5 bloody marys and mimosas"],
-  "su":["660-900", "$5 bloody marys and mimosas"]
+  "m":["840","1140", "half off apps, beer, and well drinks"],
+  "t":["840","1140", "half off apps, beer, and well drinks"],
+  "w":["840","1140", "half off apps, beer, and well drinks"],
+  "th":["840","1140", "half off apps, beer, and well drinks"],
+  "f":["840","1140", "half off apps, beer, and well drinks"],
+  "s":["660","900", "$5 bloody marys and mimosas"],
+  "su":["660","900", "$5 bloody marys and mimosas"]
 }
 {
   "_id":{"$oid":"000000000000000000000030"},
   "name":"jonathan's grille",
   "neighborhood":"green hills",
-  "m":["900-1080", "2-for-1 beers and double pours on house wines and liquor, plus $5 apps"],
-  "t":["all", "2-for-1 beer and medium pizzas and double pours of house wines and single liquor drinks"],
-  "w":["900-1080", "2-for-1 beers and double pours on house wines and liquor, plus $5 apps"],
-  "th":["900-1080", "2-for-1 beers and double pours on house wines and liquor, plus $5 apps"],
-  "f":["900-1080", "2-for-1 beers and double pours on house wines and liquor, plus $5 apps"],
-  "s":["900-1080", "2-for-1 beers and double pours on house wines and liquor, plus $5 apps"],
-  "su":["all", "$3 mimosas and bloody marys, 2-for-1 beers and select half-price bottles of wine"]
+  "m":["900","1080", "2 for 1 beers and double pours on house wines and liquor, plus $5 apps"],
+  "t":["all","", "2 for 1 beer and medium pizzas and double pours of house wines and single liquor drinks"],
+  "w":["900","1080", "2 for 1 beers and double pours on house wines and liquor, plus $5 apps"],
+  "th":["900","1080", "2 for 1 beers and double pours on house wines and liquor, plus $5 apps"],
+  "f":["900","1080", "2 for 1 beers and double pours on house wines and liquor, plus $5 apps"],
+  "s":["900","1080", "2 for 1 beers and double pours on house wines and liquor, plus $5 apps"],
+  "su":["all","", "$3 mimosas and bloody marys, 2","for","1 beers and select half","price bottles of wine"]
 }
 {
   "_id":{"$oid":"000000000000000000000031"},
   "name":"bar louie",
   "neighborhood":"gulch",
-  "m":["960-1140", "$3 draft beer, $4 house wines, $5 martinis and half off apps"],
-  "t":["960-1140", "$3 draft beer, $4 house wines, $5 martinis and half off apps"],
-  "w":["960-1140", "$3 draft beer, $4 house wines, $5 martinis and half off apps"],
-  "th":["960-1140", "$3 draft beer, $4 house wines, $5 martinis and half off apps"]
+  "m":["960","1140", "$3 draft beer, $4 house wines, $5 martinis and half off apps"],
+  "t":["960","1140", "$3 draft beer, $4 house wines, $5 martinis and half off apps"],
+  "w":["960","1140", "$3 draft beer, $4 house wines, $5 martinis and half off apps"],
+  "th":["960","1140", "$3 draft beer, $4 house wines, $5 martinis and half off apps"]
 }
 {
   "_id":{"$oid":"000000000000000000000032"},
   "name":"city fire",
   "neighborhood":"gulch",
-  "m":["960-1110", "$2 domestic bottles, $3 wine, $4 draft beers, $5 call cocktails, $6 eclectic cocktails, sizzle chips, guacamole, and maui flat"],
-  "t":["960-1110", "$2 domestic bottles, $3 wine, $4 draft beers, $5 call cocktails, $6 eclectic cocktails, sizzle chips, guacamole, and maui flat"],
-  "w":["960-1110", "$2 domestic bottles, $3 wine, $4 draft beers, $5 call cocktails, $6 eclectic cocktails, sizzle chips, guacamole, and maui flat"],
-  "th":["960-1110", "$2 domestic bottles, $3 wine, $4 draft beers, $5 call cocktails, $6 eclectic cocktails, sizzle chips, guacamole, and maui flat"],
-  "f":["960-1110", "$2 domestic bottles, $3 wine, $4 draft beers, $5 call cocktails, $6 eclectic cocktails, sizzle chips, guacamole, and maui flat"]
+  "m":["960","1110", "$2 domestic bottles, $3 wine, $4 draft beers, $5 call cocktails, $6 eclectic cocktails, sizzle chips, guacamole, and maui flat"],
+  "t":["960","1110", "$2 domestic bottles, $3 wine, $4 draft beers, $5 call cocktails, $6 eclectic cocktails, sizzle chips, guacamole, and maui flat"],
+  "w":["960","1110", "$2 domestic bottles, $3 wine, $4 draft beers, $5 call cocktails, $6 eclectic cocktails, sizzle chips, guacamole, and maui flat"],
+  "th":["960","1110", "$2 domestic bottles, $3 wine, $4 draft beers, $5 call cocktails, $6 eclectic cocktails, sizzle chips, guacamole, and maui flat"],
+  "f":["960","1110", "$2 domestic bottles, $3 wine, $4 draft beers, $5 call cocktails, $6 eclectic cocktails, sizzle chips, guacamole, and maui flat"]
 }
 {
   "_id":{"$oid":"000000000000000000000033"},
   "name":"rumours",
   "neighborhood":"gulch",
-  "m":["960-1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine"],
-  "t":["960-1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine, 2-for-1 draughts"],
-  "w":["960-1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine, ladies get happy hour specials all night"],
-  "th":["960-1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine"],
-  "f":["960-1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine"],
-  "s":["960-1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine"],
-  "su":["960-1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine"]
+  "m":["960","1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine"],
+  "t":["960","1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine, 2","for","1 draughts"],
+  "w":["960","1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine, ladies get happy hour specials all night"],
+  "th":["960","1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine"],
+  "f":["960","1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine"],
+  "s":["960","1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine"],
+  "su":["960","1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine"]
 }
 {
   "_id":{"$oid":"000000000000000000000034"},
   "name":"the pub",
   "neighborhood":"gulch",
-  "m":["900-1140", "$4 select apps, $3 schooner draughts, $4 three olives vodka and premium well drinks, $5 select wines and $6 specialty martinis"],
-  "t":["900-1140", "$4 select apps, $3 schooner draughts, $4 three olives vodka and premium well drinks, $5 select wines and $6 specialty martinis"],
-  "w":["900-1140", "$4 select apps, $3 schooner draughts, $4 three olives vodka and premium well drinks, $5 select wines and $6 specialty martinis"],
-  "th":["900-1140", "$4 select apps, $3 schooner draughts, $4 three olives vodka and premium well drinks, $5 select wines and $6 specialty martinis"],
-  "f":["900-1140", "$4 select apps, $3 schooner draughts, $4 three olives vodka and premium well drinks, $5 select wines and $6 specialty martinis"]
+  "m":["900","1140", "$4 select apps, $3 schooner draughts, $4 three olives vodka and premium well drinks, $5 select wines and $6 specialty martinis"],
+  "t":["900","1140", "$4 select apps, $3 schooner draughts, $4 three olives vodka and premium well drinks, $5 select wines and $6 specialty martinis"],
+  "w":["900","1140", "$4 select apps, $3 schooner draughts, $4 three olives vodka and premium well drinks, $5 select wines and $6 specialty martinis"],
+  "th":["900","1140", "$4 select apps, $3 schooner draughts, $4 three olives vodka and premium well drinks, $5 select wines and $6 specialty martinis"],
+  "f":["900","1140", "$4 select apps, $3 schooner draughts, $4 three olives vodka and premium well drinks, $5 select wines and $6 specialty martinis"]
 }
 {
   "_id":{"$oid":"000000000000000000000035"},
   "name":"pizza perfect",
   "neighborhood":"hillsboro village",
-  "m":["1020-1320", "2-for-1 slices and beer"]
+  "m":["1020","1320", "2 for 1 slices and beer"]
 }
 {
   "_id":{"$oid":"000000000000000000000036"},
   "name":"belcourt taps",
   "neighborhood":"hillsboro village",
-  "m":["900-1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
-  "t":["900-1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
-  "w":["900-1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
-  "th":["900-1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
-  "f":["900-1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
-  "s":["900-1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
-  "su":["900-1110", "$2.50 draft beers, $4 well drinks, and $1 off wine, trivia from 8-10"]
+  "m":["900","1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
+  "t":["900","1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
+  "w":["900","1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
+  "th":["900","1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
+  "f":["900","1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
+  "s":["900","1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
+  "su":["900","1110", "$2.50 draft beers, $4 well drinks, and $1 off wine, trivia from 8","10"]
 }
 {
   "_id":{"$oid":"000000000000000000000037"},
   "name":"boca loca",
   "neighborhood":"hillsboro village",
-  "m":["900-1110", "$2 mexican beers, $3 margaritas, $4 select wines"],
-  "t":["900-1110", "$2 mexican beers, $3 margaritas, $4 select wines"],
-  "w":["900-1110", "$2 mexican beers, $3 margaritas, $4 select wines"],
-  "th":["900-1110", "$2 mexican beers, $3 margaritas, $4 select wines"],
-  "f":["900-1110", "$2 mexican beers, $3 margaritas, $4 select wines"]
+  "m":["900","1110", "$2 mexican beers, $3 margaritas, $4 select wines"],
+  "t":["900","1110", "$2 mexican beers, $3 margaritas, $4 select wines"],
+  "w":["900","1110", "$2 mexican beers, $3 margaritas, $4 select wines"],
+  "th":["900","1110", "$2 mexican beers, $3 margaritas, $4 select wines"],
+  "f":["900","1110", "$2 mexican beers, $3 margaritas, $4 select wines"]
 }
 {
   "_id":{"$oid":"000000000000000000000038"},
   "name":"jackson's",
   "neighborhood":"hillsboro village",
-  "m":["660-1080", "2-for-1 beers, well, and call drinks"],
-  "t":["all", "2-for-1 beers, well and call drinks"],
-  "w":["660-1080", "2-for-1 beers, well, and call drinks"],
-  "th":["660-1080", "2-for-1 beers, well, and call drinks"],
-  "f":["660-1080", "2-for-1 beers, well, and call drinks"],
-  "su":["900-1320", "half priced bottles of wine"]
+  "m":["660","1080", "2 for 1 beers, well, and call drinks"],
+  "t":["all","", "2 for 1 beers, well and call drinks"],
+  "w":["660","1080", "2 for 1 beers, well, and call drinks"],
+  "th":["660","1080", "2 for 1 beers, well, and call drinks"],
+  "f":["660","1080", "2 for 1 beers, well, and call drinks"],
+  "su":["900","1320", "half priced bottles of wine"]
 }
 {
   "_id":{"$oid":"000000000000000000000039"},
   "name":"kay bob's",
   "neighborhood":"hillsboro village",
-  "t":["900-1440", "2-for-1 wings"],
-  "w":["960-1140", "$6 growler refills"]
+  "t":["900","1440", "2 for 1 wings"],
+  "w":["960","1140", "$6 growler refills"]
 }
 {
   "_id":{"$oid":"000000000000000000000040"},
   "name":"sam's sports bar",
   "neighborhood":"hillsboro village",
-  "m":["900-1140", "happy hour pricing, trivia starts at 7:30"],
-  "t":["all", "2-for-1 drinks"],
-  "w":["1020-1320", "half priced wine for ladies, trivia starts at 8"],
-  "th":["900-1140", "happy hour pricing"],
-  "f":["900-1140", "happy hour pricing, karaoke from 8-10"],
-  "su":["1080-1440", "2-for-1 drinks"]
+  "m":["900","1140", "happy hour pricing, trivia starts at 7:30"],
+  "t":["all","", "2 for 1 drinks"],
+  "w":["1020","1320", "half priced wine for ladies, trivia starts at 8"],
+  "th":["900","1140", "happy hour pricing"],
+  "f":["900","1140", "happy hour pricing, karaoke from 8","10"],
+  "su":["1080","1440", "2 for 1 drinks"]
 }
 {
   "_id":{"$oid":"000000000000000000000041"},
   "name":"sunset grill",
   "neighborhood":"hillsboro village",
-  "m":["990-1320", "half priced wines, cocktails, beers, and pizza plus $5 apps"],
-  "t":["990-1110", "half priced wines, cocktails, beers, and pizza plus $5 apps"],
-  "w":["990-1110", "half priced wines, cocktails, beers, and pizza plus $5 apps"],
-  "th":["990-1110", "half priced wines, cocktails, beers, and pizza plus $5 apps"],
-  "f":["990-1110", "half priced wines, cocktails, beers, and pizza plus $5 apps"],
-  "su":["990-1320", "half priced wines, cocktails, beers, and pizza plus $5 apps"]
+  "m":["990","1320", "half priced wines, cocktails, beers, and pizza plus $5 apps"],
+  "t":["990","1110", "half priced wines, cocktails, beers, and pizza plus $5 apps"],
+  "w":["990","1110", "half priced wines, cocktails, beers, and pizza plus $5 apps"],
+  "th":["990","1110", "half priced wines, cocktails, beers, and pizza plus $5 apps"],
+  "f":["990","1110", "half priced wines, cocktails, beers, and pizza plus $5 apps"],
+  "su":["990","1320", "half priced wines, cocktails, beers, and pizza plus $5 apps"]
 }
 {
   "_id":{"$oid":"000000000000000000000042"},
   "name":"dog of nashville",
   "neighborhood":"hillsboro village",
-  "m":["900-1140", "$2 domestic beer and $2.50 craft beer"],
-  "t":["900-1140", "$2 domestic beer and $2.50 craft beer"],
-  "w":["all", "$3 top dog"],
-  "th":["900-1140", "$2 domestic beer and $2.50 craft beer"],
-  "su":["all", "2-for-1 beers"]
+  "m":["900","1140", "$2 domestic beer and $2.50 craft beer"],
+  "t":["900","1140", "$2 domestic beer and $2.50 craft beer"],
+  "w":["all","", "$3 top dog"],
+  "th":["900","1140", "$2 domestic beer and $2.50 craft beer"],
+  "su":["all","", "2 for 1 beers"]
 }
 {
   "_id":{"$oid":"000000000000000000000043"},
   "name":"zumi sushi",
   "neighborhood":"hillsboro village",
-  "m":["900-1110", "$5 featured cocktails, $4 house wines, 2-for-1 draft and select bottled beer"],
-  "t":["900-1110", "$5 featured cocktails, $4 house wines, 2-for-1 draft and select bottled beer"],
-  "w":["all", "2-for-1 sakitos, house wines, hot sake, and draft and select bottled beer"],
-  "th":["900-1110", "$5 featured cocktails, $4 house wines, 2-for-1 draft and select bottled beer"],
-  "f":["900-1110", "$5 featured cocktails, $4 house wines, 2-for-1 draft and select bottled beer"],
-  "s":["all", "$12 for three sake samples"]
+  "m":["900","1110", "$5 featured cocktails, $4 house wines, 2","for","1 draft and select bottled beer"],
+  "t":["900","1110", "$5 featured cocktails, $4 house wines, 2","for","1 draft and select bottled beer"],
+  "w":["all","", "2 for 1 sakitos, house wines, hot sake, and draft and select bottled beer"],
+  "th":["900","1110", "$5 featured cocktails, $4 house wines, 2","for","1 draft and select bottled beer"],
+  "f":["900","1110", "$5 featured cocktails, $4 house wines, 2","for","1 draft and select bottled beer"],
+  "s":["all","", "$12 for three sake samples"]
 }
 {
   "_id":{"$oid":"000000000000000000000044"},
   "name":"ml rose",
   "neighborhood":"melrose",
-  "m":["900-1080", "$1 off apps, beer, wine, and liquor"],
-  "t":["900-1080", "$1 off apps, beer, wine, and liquor"],
-  "w":["900-1080", "$1 off apps, beer, wine, and liquor"],
-  "th":["900-1440", "2-for-1 beer $5 and double tall wells"],
-  "f":["900-1080", "$1 off apps, beer, wine, and liquor"]
+  "m":["900","1080", "$1 off apps, beer, wine, and liquor"],
+  "t":["900","1080", "$1 off apps, beer, wine, and liquor"],
+  "w":["900","1080", "$1 off apps, beer, wine, and liquor"],
+  "th":["900","1440", "2 for 1 beer $5 and double tall wells"],
+  "f":["900","1080", "$1 off apps, beer, wine, and liquor"]
 }
 {
   "_id":{"$oid":"000000000000000000000045"},
   "name":"sinema",
   "neighborhood":"melrose",
-  "m":["990-1110", "$8 select craft cocktails and $1 off well drinks and beer"],
-  "t":["990-1440", "2-for-1 well drinks and domestic bottled beers"],
-  "w":["990-1110", "$8 select craft cocktails and $1 off well drinks and beer"],
-  "th":["990-1110", "$8 select craft cocktails and $1 off well drinks and beer"]
+  "m":["990","1110", "$8 select craft cocktails and $1 off well drinks and beer"],
+  "t":["990","1440", "2 for 1 well drinks and domestic bottled beers"],
+  "w":["990","1110", "$8 select craft cocktails and $1 off well drinks and beer"],
+  "th":["990","1110", "$8 select craft cocktails and $1 off well drinks and beer"]
 }
 {
   "_id":{"$oid":"000000000000000000000046"},
   "name":"the sutler",
   "neighborhood":"melrose",
-  "m":["990-1110", "half off all craft cocktails, draft beer, and well drinks and $1 off glasses of wine"],
-  "t":["990-1110", "half off all craft cocktails, draft beer, and well drinks and $1 off glasses of wine"],
-  "w":["990-1110", "half off all craft cocktails, draft beer, and well drinks and $1 off glasses of wine"],
-  "th":["990-1110", "half off all craft cocktails, draft beer, and well drinks and $1 off glasses of wine"],
-  "f":["990-1110", "half off all craft cocktails, draft beer, and well drinks and $1 off glasses of wine"]
+  "m":["990","1110", "half off all craft cocktails, draft beer, and well drinks and $1 off glasses of wine"],
+  "t":["990","1110", "half off all craft cocktails, draft beer, and well drinks and $1 off glasses of wine"],
+  "w":["990","1110", "half off all craft cocktails, draft beer, and well drinks and $1 off glasses of wine"],
+  "th":["990","1110", "half off all craft cocktails, draft beer, and well drinks and $1 off glasses of wine"],
+  "f":["990","1110", "half off all craft cocktails, draft beer, and well drinks and $1 off glasses of wine"]
 }
 {
   "_id":{"$oid":"000000000000000000000047"},
   "name":"boundry",
   "neighborhood":"midtown",
-  "m":["960-1140", "half priced select cocktails, local brews, select wines and $5 select apps"],
-  "t":["960-1140", "half priced select cocktails, local brews, select wines and $5 select apps"],
-  "w":["960-1140", "half priced select cocktails, local brews, select wines and $5 select apps"],
-  "th":["960-1140", "half priced select cocktails, local brews, select wines and $5 select apps"],
-  "f":["960-1140", "half priced select cocktails, local brews, select wines and $5 select apps"]
+  "m":["960","1140", "half priced select cocktails, local brews, select wines and $5 select apps"],
+  "t":["960","1140", "half priced select cocktails, local brews, select wines and $5 select apps"],
+  "w":["960","1140", "half priced select cocktails, local brews, select wines and $5 select apps"],
+  "th":["960","1140", "half priced select cocktails, local brews, select wines and $5 select apps"],
+  "f":["960","1140", "half priced select cocktails, local brews, select wines and $5 select apps"]
 }
 {
   "_id":{"$oid":"000000000000000000000048"},
   "name":"mellow mushroom",
   "neighborhood":"midtown",
-  "m":["900-1200", "half priced drafts and apps, $1 off select domestic bottles, house wine, and well drinks"],
-  "t":["900-1200", "half priced drafts and apps, $1 off select domestic bottles, house wine, and well drinks"],
-  "w":["900-1200", "half priced drafts and apps, $1 off select domestic bottles, house wine, and well drinks"],
-  "th":["900-1200", "half priced drafts and apps, $1 off select domestic bottles, house wine, and well drinks"],
-  "su":["all", "half priced drafts and apps, $1 off select domestic bottles, house wine, and well drinks"]
+  "m":["900","1200", "half priced drafts and apps, $1 off select domestic bottles, house wine, and well drinks"],
+  "t":["900","1200", "half priced drafts and apps, $1 off select domestic bottles, house wine, and well drinks"],
+  "w":["900","1200", "half priced drafts and apps, $1 off select domestic bottles, house wine, and well drinks"],
+  "th":["900","1200", "half priced drafts and apps, $1 off select domestic bottles, house wine, and well drinks"],
+  "su":["all","", "half priced drafts and apps, $1 off select domestic bottles, house wine, and well drinks"]
 }
 {
   "_id":{"$oid":"000000000000000000000049"},
   "name":"soulshine",
   "neighborhood":"midtown",
-  "m":["900-1080", "$1 off everything"],
-  "t":["900-1080", "$1 off everything"],
-  "w":["900-1080", "$1 off everything"],
-  "th":["900-1080", "$1 off everything"],
-  "f":["900-1080", "$1 off everything"]
+  "m":["900","1080", "$1 off everything"],
+  "t":["900","1080", "$1 off everything"],
+  "w":["900","1080", "$1 off everything"],
+  "th":["900","1080", "$1 off everything"],
+  "f":["900","1080", "$1 off everything"]
 }
 {
   "_id":{"$oid":"000000000000000000000050"},
   "name":"the row",
   "neighborhood":"midtown",
-  "m":["960-1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
-  "t":["960-1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
-  "w":["960-1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
-  "th":["960-1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
-  "f":["960-1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
-  "s":["960-1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
-  "su":["960-1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"]
+  "m":["960","1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
+  "t":["960","1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
+  "w":["960","1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
+  "th":["960","1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
+  "f":["960","1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
+  "s":["960","1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
+  "su":["960","1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"]
 }
 {
   "_id":{"$oid":"000000000000000000000051"},
   "name":"etch",
   "neighborhood":"sobro",
-  "m":["960-1110", "$8 apps, $4 craft drafts, $5 wines, and $6 select cocktails"],
-  "t":["960-1110", "$8 apps, $4 craft drafts, $5 wines, and $6 select cocktails"],
-  "w":["960-1110", "$8 apps, $4 craft drafts, $5 wines, and $6 select cocktails"],
-  "th":["960-1110", "$8 apps, $4 craft drafts, $5 wines, and $6 select cocktails"],
-  "f":["960-1110", "$8 apps, $4 craft drafts, $5 wines, and $6 select cocktails"]
+  "m":["960","1110", "$8 apps, $4 craft drafts, $5 wines, and $6 select cocktails"],
+  "t":["960","1110", "$8 apps, $4 craft drafts, $5 wines, and $6 select cocktails"],
+  "w":["960","1110", "$8 apps, $4 craft drafts, $5 wines, and $6 select cocktails"],
+  "th":["960","1110", "$8 apps, $4 craft drafts, $5 wines, and $6 select cocktails"],
+  "f":["960","1110", "$8 apps, $4 craft drafts, $5 wines, and $6 select cocktails"]
 }
 {
   "_id":{"$oid":"000000000000000000000052"},
   "name":"listening room cafe",
   "neighborhood":"sobro",
-  "m":["660-1080", "2-for-1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
-  "t":["660-1080", "2-for-1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
-  "w":["660-1080", "2-for-1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
-  "th":["660-1080", "2-for-1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
-  "f":["660-1080", "2-for-1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
-  "su":["600-840", "$15 bottomless mimosas and $2.50 listening room drafts"]
+  "m":["660","1080", "2 for 1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
+  "t":["660","1080", "2 for 1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
+  "w":["660","1080", "2 for 1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
+  "th":["660","1080", "2 for 1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
+  "f":["660","1080", "2 for 1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
+  "su":["600","840", "$15 bottomless mimosas and $2.50 listening room drafts"]
 }
 {
   "_id":{"$oid":"000000000000000000000053"},
   "name":"coco's italian market",
   "neighborhood":"sylvan park",
-  "m":["900-1080", "$3 select draft beers, $4 imported italian wines, $1 off espresso drinks and desserts"],
-  "t":["all", "$1 draft with any pizza"],
-  "w":["1020-1440", "half priced bottles of wine"],
-  "th":["900-1080", "$3 select draft beers, $4 imported italian wines, $1 off espresso drinks and desserts"],
-  "f":["900-1080", "$3 select draft beers, $4 imported italian wines, $1 off espresso drinks and desserts"]
+  "m":["900","1080", "$3 select draft beers, $4 imported italian wines, $1 off espresso drinks and desserts"],
+  "t":["all","", "$1 draft with any pizza"],
+  "w":["1020","1440", "half priced bottles of wine"],
+  "th":["900","1080", "$3 select draft beers, $4 imported italian wines, $1 off espresso drinks and desserts"],
+  "f":["900","1080", "$3 select draft beers, $4 imported italian wines, $1 off espresso drinks and desserts"]
 }
 {
   "_id":{"$oid":"000000000000000000000054"},
   "name":"ml rose",
   "neighborhood":"sylvan park",
-  "m":["900-1080", "$1 off apps, liquor, wine, and beer"],
-  "t":["900-1080", "$1 off apps, liquor, wine, and beer"],
-  "w":["900-1320", "2-for-1 drinks"],
-  "th":["900-1080", "$1 off apps, liquor, wine, and beer"],
-  "f":["900-1080", "$1 off apps, liquor, wine, and beer"]
+  "m":["900","1080", "$1 off apps, liquor, wine, and beer"],
+  "t":["900","1080", "$1 off apps, liquor, wine, and beer"],
+  "w":["900","1320", "2 for 1 drinks"],
+  "th":["900","1080", "$1 off apps, liquor, wine, and beer"],
+  "f":["900","1080", "$1 off apps, liquor, wine, and beer"]
 }
 {
   "_id":{"$oid":"000000000000000000000055"},
   "name":"park cafe",
   "neighborhood":"sylvan park",
-  "m":["990-1110", "$5 specialty cocktails, glasses of wine, and bar menu items"],
-  "t":["990-1110", "$5 specialty cocktails, glasses of wine, and bar menu items"],
-  "w":["990-1110", "$5 specialty cocktails, glasses of wine, and bar menu items"],
-  "th":["990-1110", "$5 specialty cocktails, glasses of wine, and bar menu items"],
-  "f":["990-1110", "$5 specialty cocktails, glasses of wine, and bar menu items"],
-  "s":["990-1110", "$5 specialty cocktails, glasses of wine, and bar menu items"]
+  "m":["990","1110", "$5 specialty cocktails, glasses of wine, and bar menu items"],
+  "t":["990","1110", "$5 specialty cocktails, glasses of wine, and bar menu items"],
+  "w":["990","1110", "$5 specialty cocktails, glasses of wine, and bar menu items"],
+  "th":["990","1110", "$5 specialty cocktails, glasses of wine, and bar menu items"],
+  "f":["990","1110", "$5 specialty cocktails, glasses of wine, and bar menu items"],
+  "s":["990","1110", "$5 specialty cocktails, glasses of wine, and bar menu items"]
 }
 {
   "_id":{"$oid":"000000000000000000000056"},
   "name":"stone fox",
   "neighborhood":"sylvan park",
-  "m":["1020-1140", "2-for-1 well drinks and most drafts, $6 select small plates"],
-  "t":["1020-1140", "2-for-1 well drinks and most drafts, $6 select small plates"],
-  "w":["1020-1140", "2-for-1 well drinks and most drafts, $6 select small plates"],
-  "th":["1020-1140", "2-for-1 well drinks and most drafts, $6 select small plates"],
-  "f":["1020-1140", "2-for-1 well drinks and most drafts, $6 select small plates"]
+  "m":["1020","1140", "2 for 1 well drinks and most drafts, $6 select small plates"],
+  "t":["1020","1140", "2 for 1 well drinks and most drafts, $6 select small plates"],
+  "w":["1020","1140", "2 for 1 well drinks and most drafts, $6 select small plates"],
+  "th":["1020","1140", "2 for 1 well drinks and most drafts, $6 select small plates"],
+  "f":["1020","1140", "2 for 1 well drinks and most drafts, $6 select small plates"]
 }
 {
   "_id":{"$oid":"000000000000000000000057"},
   "name":"amerigo",
   "neighborhood":"west end",
-  "m":["960-1080", "$3 craft beer, $4 wine, $5 craft cocktails"],
-  "t":["960-1080", "$3 craft beer, $4 wine, $5 craft cocktails"],
-  "w":["960-1080", "$3 craft beer, $4 wine, $5 craft cocktails"],
-  "th":["960-1080", "$3 craft beer, $4 wine, $5 craft cocktails"],
-  "su":["960-1080", "$3 craft beer, $4 wine, $5 craft cocktails"]
+  "m":["960","1080", "$3 craft beer, $4 wine, $5 craft cocktails"],
+  "t":["960","1080", "$3 craft beer, $4 wine, $5 craft cocktails"],
+  "w":["960","1080", "$3 craft beer, $4 wine, $5 craft cocktails"],
+  "th":["960","1080", "$3 craft beer, $4 wine, $5 craft cocktails"],
+  "su":["960","1080", "$3 craft beer, $4 wine, $5 craft cocktails"]
 }
 {
   "_id":{"$oid":"000000000000000000000058"},
   "name":"commodore grill",
   "neighborhood":"west end",
-  "m":["1020-1140", "$5 apps and cocktails, $3 beers"],
-  "t":["1020-1140", "$5 apps and cocktails, $3 beers"],
-  "w":["1020-1140", "$5 apps and cocktails, $3 beers"],
-  "th":["1020-1140", "$5 apps and cocktails, $3 beers"],
-  "f":["1020-1140", "$5 apps and cocktails, $3 beers"]
+  "m":["1020","1140", "$5 apps and cocktails, $3 beers"],
+  "t":["1020","1140", "$5 apps and cocktails, $3 beers"],
+  "w":["1020","1140", "$5 apps and cocktails, $3 beers"],
+  "th":["1020","1140", "$5 apps and cocktails, $3 beers"],
+  "f":["1020","1140", "$5 apps and cocktails, $3 beers"]
 }
 {
   "_id":{"$oid":"000000000000000000000059"},
   "name":"jed's",
   "neighborhood":"west end",
-  "m":["840-1080", "$4 well drinks, $1 off beers, and $5 red bull vodkas"],
-  "t":["all", "2-for-1 beer"],
-  "w":["840-1080", "$4 well drinks, $1 off beer, $5 bushwhackers"],
-  "th":["840-1080", "$4 well drinks, $1 off beer, $5 carbombs"],
-  "f":["840-1080", "$4 well drinks, $1 off beer, $5 fireball"],
-  "s":["all", "$5 mimosas and bloody marys"],
-  "su":["all", "$5 mimosas and bloody marys"]
+  "m":["840","1080", "$4 well drinks, $1 off beers, and $5 red bull vodkas"],
+  "t":["all","", "2 for 1 beer"],
+  "w":["840","1080", "$4 well drinks, $1 off beer, $5 bushwhackers"],
+  "th":["840","1080", "$4 well drinks, $1 off beer, $5 carbombs"],
+  "f":["840","1080", "$4 well drinks, $1 off beer, $5 fireball"],
+  "s":["all","", "$5 mimosas and bloody marys"],
+  "su":["all","", "$5 mimosas and bloody marys"]
 }
 {
   "_id":{"$oid":"000000000000000000000060"},
   "name":"sitar",
   "neighborhood":"west end",
-  "t":["1020-1080", "2-for-1 wine and half priced select apps"],
-  "w":["1020-1080", "2-for-1 wine and half priced select apps"]
+  "t":["1020","1080", "2 for 1 wine and half priced select apps"],
+  "w":["1020","1080", "2 for 1 wine and half priced select apps"]
 }
 {
   "_id":{"$oid":"000000000000000000000061"},
   "name":"viener fest",
   "neighborhood":"west end",
-  "t":["900-1140", "2-for-1 bottled beer, glasses of wine, and mixed drinks"],
-  "w":["900-1140", "2-for-1 bottled beer, glasses of wine, and mixed drinks"],
-  "th":["900-1140", "2-for-1 bottled beer, glasses of wine, and mixed drinks"],
-  "f":["900-1140", "2-for-1 bottled beer, glasses of wine, and mixed drinks"],
-  "s":["1320-1440", "2-for-1 drafts and $3 shooters"]
+  "t":["900","1140", "2 for 1 bottled beer, glasses of wine, and mixed drinks"],
+  "w":["900","1140", "2 for 1 bottled beer, glasses of wine, and mixed drinks"],
+  "th":["900","1140", "2 for 1 bottled beer, glasses of wine, and mixed drinks"],
+  "f":["900","1140", "2 for 1 bottled beer, glasses of wine, and mixed drinks"],
+  "s":["1320","1440", "2 for 1 drafts and $3 shooters"]
 }
