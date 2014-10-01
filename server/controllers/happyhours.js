@@ -13,3 +13,9 @@ exports.today = function(req, res){
     res.send({happyhours:happyhours});
   });
 };
+
+exports.show = function(req, res){
+  happyHour.findById(req.params.id, function(err, happyhour){
+    res.send({happyhour:happyhour});
+  });
+};

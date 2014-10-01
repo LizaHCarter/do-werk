@@ -9,6 +9,7 @@
     .when('/login',    {templateUrl:'/views/login/login.html',       controller:'LoginCtrl'})
     .when('/logout',   {templateUrl:'/views/logout/logout.html',     controller:'LogoutCtrl'})
     .when('/happyhours',   {templateUrl:'/views/happyhours/happyhours.html',     controller:'HappyHoursCtrl'})
+    .when('/happyhours/:id',   {templateUrl:'/views/happyhours/show.html',     controller:'ShowCtrl'})
     .otherwise({redirectTo:'/'});
 
     $httpProvider.interceptors.push('HttpInterceptor');

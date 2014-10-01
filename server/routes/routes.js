@@ -26,6 +26,7 @@ module.exports = function(app, express){
   app.post('/login', users.login);
   app.get('/happyhours', happyhours.index);
   app.get('/happyhours/today', happyhours.today);
+  app.get('/happyhours/:id', happyhours.show);
 
   app.use(security.bounce);
   app.delete('/logout', users.logout);
