@@ -63,36 +63,32 @@ describe('happyHour', function(){
   describe('findToday', function(){
     it('should find all places with happy hours today', function(done){
       happyHour.findToday(function(err, places){
-        var d = new Date().getDay();
+        var d = new Date().getDay(),
+            l = 0;
         switch(d){
           case 0:
-            expect(places.length).to.equal(25);
-            done();
+            l = 25;
             break;
           case 1:
-            expect(places.length).to.equal(53);
-            done();
+            l =53;
             break;
           case 2:
-            expect(places.length).to.equal(44);
-            done();
+            l = 44;
             break;
           case 3:
-            expect(places.length).to.equal(56);
-            done();
+            l = 56;
             break;
           case 4:
-            expect(places.length).to.equal(57);
-            done();
+            l = 57;
             break;
           case 5:
-            expect(places.length).to.equal(44);
-            done();
+            l = 44;
             break;
           case 6:
-            expect(places.length).to.equal(18);
-            done();
+            l= 18;
         }
+        expect(places.length).to.equal(l);
+        done();
       });
     });
   });
