@@ -4,9 +4,9 @@
   'use strict';
 
   angular.module('lcRestaurantModule', [])
-  .factory('YelpApi', ['$http', function($http){
+  .factory('FoursquareApi', ['$http', function($http){
     function restaurant(business){
-      return $http.jsonp('http://api.yelp.com/v2/search?term='+business+'&location=Nashville.json?callback=JSON_CALLBACK');
+      return $http.jsonp('https://api.foursquare.com/v2/venues/search?client_id=TD1NU3JZTB05IW00UXGKQYIZJO23GAQHBIMSBGOPRFAG11L0&client_secret=NYD3E23NNVJVDET3FM23IGQUKFHYJY0MQADPPVNZSHGWIYGP&v=20130815&near=Nashville,TN&query='+ business+'&callback=JSON_CALLBACK');
     }
     return{restaurant:restaurant};
   }])
@@ -18,10 +18,10 @@
     o.link = function(scope, element, attrs){
     };
 
-    o.controller = ['$scope', 'YelpApi', function($scope, YelpApi){
+    o.controller = ['$scope', 'FoursquareApi', function($scope, FoursquareApi){
       function getInfo(){
-        YelpApi.info($scope.business).then(function(response){
-          debugger;
+        FoursquareApi.restaurant($scope.business).then(function(response){
+          $scope.business = response.data.response.venues;
         });
       }
       getInfo();

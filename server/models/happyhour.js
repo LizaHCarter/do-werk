@@ -34,31 +34,27 @@ happyHour.findToday = function(cb){
 
   switch(day){
     case 0:
-      day = 'su';
+      day = 'sunday';
       break;
     case 1:
-      day = 'm';
+      day = 'monday';
       break;
     case 2:
-      day = 't';
+      day = 'tuesday';
       break;
     case 3:
-      day = 'w';
+      day = 'wednesday';
       break;
     case 4:
-      day = 'th';
+      day = 'thursday';
       break;
     case 5:
-      day = 'f';
+      day = 'friday';
       break;
     case 6:
-      day = 's';
+      day = 'saturday';
   }
-
-  var obj = {};
-  obj[day] = {$exists: true};
-
-  happyHour.collection.find(obj).toArray(cb);
+  happyHour.findByDay(day, cb);
 };
 
 module.exports = happyHour;

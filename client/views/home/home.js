@@ -6,29 +6,43 @@
 
     $scope.happyhours = [];
 
+    var content = 'happy hours today';
+
+    $scope.type = '';
+    var i     = 0,
+      timer = $interval(function(){
+        if(i<content.length){
+          $scope.type += content[i];}
+        else{
+          $interval.cancel(timer);}
+        i++;
+        $scope.$apply();
+      }, 100);
+
     happyHour.findToday().then(function(response){
+      debugger;
       $scope.date = new Date().getDay();
       switch($scope.date){
         case 0:
-          $scope.date = 'su';
+          $scope.date = 'sunday';
           break;
         case 1:
-          $scope.date = 'm';
+          $scope.date = 'monday';
           break;
         case 2:
-          $scope.date = 't';
+          $scope.date = 'tuesday';
           break;
         case 3:
-          $scope.date = 'w';
+          $scope.date = 'wednesday';
           break;
         case 4:
-          $scope.date = 'th';
+          $scope.date = 'thursday';
           break;
         case 5:
-          $scope.date = 'f';
+          $scope.date = 'friday';
           break;
         case 6:
-          $scope.date = 's';
+          $scope.date = 'saturday';
       }
       debugger;
       $scope.happyhours = response.data.happyhours;
