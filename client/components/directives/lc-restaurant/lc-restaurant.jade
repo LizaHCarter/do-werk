@@ -1,4 +1,6 @@
-h3 {{business[0].name}}
-p {{business[0].location.address}}
-p {{business[0].categories[0].shortName}}
+h4 {{place.categories[0].shortName.toLowerCase()}}
+div {{place.location.address.toLowerCase()}}
+div {{place.contact.formattedPhone}}
+div {{place.url}}
+
 

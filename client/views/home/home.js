@@ -20,7 +20,6 @@
       }, 100);
 
     happyHour.findToday().then(function(response){
-      debugger;
       $scope.date = new Date().getDay();
       switch($scope.date){
         case 0:
@@ -44,7 +43,6 @@
         case 6:
           $scope.date = 'saturday';
       }
-      debugger;
       $scope.happyhours = response.data.happyhours;
     });
   }]);

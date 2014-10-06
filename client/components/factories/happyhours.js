@@ -12,7 +12,11 @@
       return $http.get('/happyhours/today');
     }
 
-    return {all:all, findToday:findToday};
+    function findById(id){
+      return $http.get('/happyhours/'+id);
+    }
+
+    return {all:all, findToday:findToday, findById:findById};
   }]);
 })();
 

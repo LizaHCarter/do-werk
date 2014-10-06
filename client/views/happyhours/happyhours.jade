@@ -1,4 +1,4 @@
-h3 {{title}}
+h3 {{type}}
 
 .row
   .col-xs-2
@@ -10,10 +10,10 @@ h3 {{title}}
           th neighborhood
       tbody
         tr(ng-repeat='h in happyhours')
-          td {{h.name}}
+          td: a(href= '/#/happyhours/{{h._id}}') {{h.name}}
           td {{h.neighborhood}}
   .col-xs-2
 
 .row
   .col-xs-12
-    div(lc-restaurant, business='{{business}}')
+    div(lc-restaurant, business='{{loc}}') {{loc}}
