@@ -27,6 +27,19 @@ describe('happyhours', function(){
       });
     });
   });
+  describe('post /login', function(){
+    it('should not allow user to login if credentials are wrong', function(done){
+      request(app)
+      .post('/login')
+      .send('email=bob@aol.com')
+      .send('password=abcd')
+      .end(function(err, res){
+        expect(res.status).to.equal(401);
+        done();
+      });
+    });
+  });
+
   describe('post /register', function(){
     it('should register a new user', function(done){
       request(app)
@@ -36,6 +49,16 @@ describe('happyhours', function(){
       .end(function(err, res){
         cookie = res.headers['set-cookie'][0];
         expect(res.status).to.equal(200);
+        done();
+      });
+    });
+    it('should not allow user to register if already registered', function(done){
+      request(app)
+      .post('/register')
+      .send('email=bob@aol.com')
+      .send('password=1234')
+      .end(function(err, res){
+        expect(res.status).to.equal(400);
         done();
       });
     });
