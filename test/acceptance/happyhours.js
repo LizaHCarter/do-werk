@@ -27,6 +27,30 @@ describe('happyhours', function(){
       });
     });
   });
+  describe('get /happyhours', function(){
+    it('should show all happyhours page', function(done){
+      request(app)
+      .get('/happyhours')
+      .set('cookie', cookie)
+      .end(function(err, res){
+        expect(res.status).to.equal(200);
+        expect(res.text).to.include('all');
+        done();
+      });
+    });
+  });
+  describe('get /happyhours/today', function(){
+    it('should show all happyhours today', function(done){
+      request(app)
+      .get('/happyhours/today')
+      .set('cookie', cookie)
+      .end(function(err, res){
+        expect(res.status).to.equal(200);
+        expect(res.text).to.include('beer');
+        done();
+      });
+    });
+  });
   describe('get /happyhours/000000000000000000000005', function(){
     it('should show a specific happyhour page', function(done){
       request(app)
