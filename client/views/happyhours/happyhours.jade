@@ -3,17 +3,12 @@ h3 {{type}}
 .row
   .col-xs-2
   .col-xs-8
-    table#all.table.table-bordered
-      thead
-        tr
-          th place
-          th neighborhood
-      tbody
-        tr(ng-repeat='h in happyhours')
-          td: a(href= '/#/happyhours/{{h._id}}') {{h.name}}
-          td {{h.neighborhood}}
-  .col-xs-2
-
-.row
-  .col-xs-12
-    div(lc-restaurant, business='{{loc}}') {{loc}}
+    table.table(ng-table='tableParams')
+        tbody(ng-repeat='group in $groups')
+            tr.ng-table-group
+              td(colspan='{{$columns.length}}')
+                a(href='', ng-click='group.$hideRows = !group.$hideRows')
+                  span.glyphicon(ng-class='{ \'glyphicon-chevron-down\': group.$hideRows, \'glyphicon-chevron-right\': !group.$hideRows }') &nbsp
+                  strong {{ group.value }}
+            tr(ng-show='group.$hideRows', ng-repeat='user in group.data')
+              td(sortable='name'): a(href='/#/happyhours/{{user._id}}') {{user.name}}

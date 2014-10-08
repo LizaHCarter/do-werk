@@ -2,7 +2,9 @@
   "name": "do-werk",
   "version": "0.0.0",
   "description": "Node.js and Angular app for finding bars and restaurants for coders and students to do their work while enjoying happy hours and other drink specials",
-  "bin": {"coveralls" : "./node_modules/coveralls/bin/coveralls.js"},
+  "bin": {
+    "coveralls": "./node_modules/coveralls/bin/coveralls.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/lizahcarter/do-werk"
@@ -52,6 +54,7 @@
     "grunt-shell": "^1.1.1",
     "jshint-stylish": "^1.0.0",
     "mocha": "^1.21.4",
-    "mocha-lcov-reporter": "0.0.1"
+    "mocha-lcov-reporter": "0.0.1",
+    "supertest": "^0.14.0"
   }
 }

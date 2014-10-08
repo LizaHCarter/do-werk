@@ -17,6 +17,7 @@
     o.templateUrl = '/components/directives/lc-restaurant/lc-restaurant.html';
     o.scope = {business:'@'};
     o.link = function(scope, element, attrs){
+      debugger;
     };
 
     o.controller = ['$scope', 'FoursquareApi', function($scope, FoursquareApi){
