@@ -39,6 +39,16 @@ describe('happyhours', function(){
       });
     });
   });
+  describe('delete /logout', function(){
+    it('should log a user out', function(done){
+      request(app)
+      .delete('/logout')
+      .end(function(err, res){
+        expect(res.status).to.equal(401);
+        done();
+      });
+    });
+  });
 
   describe('post /register', function(){
     it('should register a new user', function(done){
