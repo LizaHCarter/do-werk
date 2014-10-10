@@ -43,8 +43,10 @@ describe('happyhours', function(){
     it('should log a user out', function(done){
       request(app)
       .delete('/logout')
+      .set('cookie', cookie)
       .end(function(err, res){
-        expect(res.status).to.equal(401);
+        expect(res.status).to.equal(200);
+        expect(res.headers).to.have.property('x-authenticated-user', 'anonymous');
         done();
       });
     });

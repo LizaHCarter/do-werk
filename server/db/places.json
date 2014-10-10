@@ -1,6 +1,7 @@
 {
   "_id":{"$oid":"000000000000000000000001"},
   "name":"12 south taproom",
+  "attendees": ["bob@aol.com"],
   "neighborhood":"12 south",
   "monday":["all","", "$5 low alcohol pints for $3"],
   "tuesday":["all","", "$1 off can beer"],
@@ -12,6 +13,7 @@
 {
   "_id":{"$oid":"000000000000000000000002"},
   "name":"edley's bar-b-que",
+  "attendees": [],
   "neighborhood":"12 south",
   "monday":["1200","1320", "Trivia night"],
   "wednesday":["all","", "$5 bushwhackers"],
@@ -20,12 +22,14 @@
 {
   "_id":{"$oid":"000000000000000000000003"},
   "name":"frothy monkey",
+  "attendees": ["liza@gmail.com"],
   "neighborhood":"12 south",
   "wednesday":["1020","1140", "$15 for 3 four ounce pours or 4 three ounce pours"]
 }
 {
   "_id":{"$oid":"000000000000000000000004"},
   "name":"chago's cantina",
+  "attendees": ["liza@aol.com"],
   "neighborhood":"belmont",
   "monday":["900","1140", "half price chagorita's, domestic drafts, and $20 buckets of 6 coronas"],
   "tuesday":["900","1140", "half price chagorita's, domestic drafts, and $20 buckets of 6 coronas"],
@@ -38,6 +42,7 @@
 {
   "_id":{"$oid":"000000000000000000000005"},
   "name":"smokin thighs",
+  "attendees": [],
   "neighborhood":"berry hill",
   "monday":["900","1140", "2 for 1 well drinks, $5 well shots and high gravity draft beers, $2 moonshine tastings, $1 off wine and appetizers "],
   "tuesday":["900","1140", "2 for 1 well drinks, $5 well shots and high gravity draft beers, $2 moonshine tastings, $1 off wine and appetizers "],
@@ -48,6 +53,7 @@
 {
   "_id":{"$oid":"000000000000000000000006"},
   "name":"dan mcguinness",
+  "attendees": [],
   "neighborhood":"demonbreun",
   "monday":["660","1140", "2 for 1 fireball, mcguinness lite and amber draft pints, domestic bottles, well drinks, $2.50 house wine, $6 burger and fries"],
   "tuesday":["660","1140", "2 for 1 fireball, mcguinness lite and amber draft pints, domestic bottles, well drinks, $2.50 house wine, $8 turkey blt and fries"],
@@ -60,6 +66,7 @@
 {
   "_id":{"$oid":"000000000000000000000007"},
   "name":"little chicago",
+  "attendees": [],
   "neighborhood":"demonbreun",
   "monday":["840","1080", "2 for 1 beer"],
   "tuesday":["840","1080", "2 for 1 beer"],
@@ -70,6 +77,7 @@
 {
   "_id":{"$oid":"000000000000000000000008"},
   "name":"south",
+  "attendees": [],
   "neighborhood":"demonbreun",
   "tuesday":["all","", "2 for 1 house cocktails, wine, domestic beers, and appetizers"],
   "wednesday":["all","", "1/2 off everything for ladies"],
@@ -80,6 +88,7 @@
 {
   "_id":{"$oid":"000000000000000000000009"},
   "name":"tin roof",
+  "attendees": [],
   "neighborhood":"demonbreun",
   "monday":["840","1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinks, and $5 chicken quesadillas"],
   "tuesday":["840","1140", "$1 12oz pbr, $2 domestics, $3 craft beers, $4 well drinks, and $5 chicken quesadillas"],
@@ -91,6 +100,7 @@
 {
   "_id":{"$oid":"000000000000000000000010"},
   "name":"bailey's",
+  "attendees": [],
   "neighborhood":"downtown",
   "monday":["900","1140", "$2.50 bud. bud light, miller lite, and coors lite, $3 long island teas and margaritas"],
   "tuesday":["all","", "$2.50 draft beer"],
@@ -102,6 +112,7 @@
 }
 {
   "_id":{"$oid":"000000000000000000000011"},
+  "attendees": [],
   "name":"flying saucer",
   "neighborhood":"downtown",
   "monday":["all","", "$3 most pints"],
@@ -112,6 +123,7 @@
 {
   "_id":{"$oid":"000000000000000000000012"},
   "name":"melting pot",
+  "attendees": [],
   "neighborhood":"downtown",
   "monday":["990","1110", "$3 beers, $6 wines, and selected cocktail specials"],
   "tuesday":["990","1110", "$3 beers, $6 wines, and selected cocktail specials"],
@@ -121,6 +133,7 @@
 {
   "_id":{"$oid":"000000000000000000000013"},
   "name":"riverfront tavern",
+  "attendees": [],
   "neighborhood":"downtown",
   "monday":["all","", "$3 blue moon drafts and $5 flavored vodka bombs"],
   "tuesday":["all","", "$3 sweetwater drafts and $4 well drinks"],
@@ -133,6 +146,7 @@
 {
   "_id":{"$oid":"000000000000000000000014"},
   "name":"rodizio grill",
+  "attendees": [],
   "neighborhood":"downtown",
   "monday":["960","1080", "half price local craft drafts and brazilian beers, $5 caipirinhas, $3 brazilian apps"],
   "tuesday":["960","1080", "half price local craft drafts and brazilian beers, $5 caipirinhas, $3 brazilian apps"],
@@ -142,6 +156,7 @@
 {
   "_id":{"$oid":"000000000000000000000015"},
   "name":"417 union",
+  "attendees": [],
   "neighborhood":"downtown",
   "thursday":["900","1140", "$1 off draft and bottled beer, $4 well drinks, and $5 flavored martinis"],
   "friday":["900","1140", "$1 off draft and bottled beer, $4 well drinks and $5 flavored martinis"]
@@ -149,6 +164,7 @@
 {
   "_id":{"$oid":"000000000000000000000016"},
   "name":"3 crow bar",
+  "attendees": [],
   "neighborhood":"east nashville",
   "monday":["660","1140", "$1 off all drinks"],
   "tuesday":["660","1140", "$1 off all drinks"],
@@ -160,6 +176,7 @@
 {
   "_id":{"$oid":"000000000000000000000017"},
   "name":"beyond the edge",
+  "attendees": [],
   "neighborhood":"east nashville",
   "monday":["900","1140", "2 for 1 bottled and draft beer"],
   "tuesday":["900","1140", "2 for 1 bottled and draft beer"],
@@ -172,6 +189,7 @@
 {
   "_id":{"$oid":"000000000000000000000018"},
   "name":"drifters bbq",
+  "attendees": [],
   "neighborhood":"east nashville",
   "monday":["900","1140", "2 for 1 beers and select liquors, trivia from 8","10"],
   "tuesday":["900","1140", "2 for 1 beers and select liquors, karaoke at 9"],
@@ -183,6 +201,7 @@
 {
   "_id":{"$oid":"000000000000000000000019"},
   "name":"family wash",
+  "attendees": [],
   "neighborhood":"east nashville",
   "tuesday":["all","", "$10 draft beer and shepherd's pie"],
   "thursday":["all","", "$3.75 draft beers"]
@@ -190,6 +209,7 @@
 {
   "_id":{"$oid":"000000000000000000000020"},
   "name":"pomodoro grill",
+  "attendees": [],
   "neighborhood":"east nashville",
   "monday":["990","1110", "$5 wine, martinis, and apps, $3 beer"],
   "tuesday":["990","1110", "$5 wine, martinis, and apps, $3 beer"],
@@ -202,6 +222,7 @@
 {
   "_id":{"$oid":"000000000000000000000021"},
   "name":"tenn sixteen",
+  "attendees": [],
   "neighborhood":"east nashville",
   "monday":["660","1140", "$1 off drinks"],
   "tuesday":["660","1140", "$1 off drinks"],
@@ -213,6 +234,7 @@
 {
   "_id":{"$oid":"000000000000000000000022"},
   "name":"two ten jack",
+  "attendees": [],
   "neighborhood":"east nashville",
   "monday":["960","1080", "2 for 1 asahi, kirin, and pbr, $5 house white and red wine, $5 jack juice, infused shochu, $3 steamed edamame, $5 crispy rice spicy tuna"],
   "tuesday":["960","1080", "2 for 1 asahi, kirin, and pbr, $5 house white and red wine, $5 jack juice, infused shochu, $3 steamed edamame, $5 crispy rice spicy tuna"],
@@ -222,6 +244,7 @@
 {
   "_id":{"$oid":"000000000000000000000023"},
   "name":"bella napoli",
+  "attendees": [],
   "neighborhood":"edgehill",
   "monday":["960","1080", "half price domestic beers, $4 well drinks, and $5 house wine"],
   "tuesday":["960","1080", "half price domestic beers, $4 well drinks, and $5 house wine"],
@@ -231,6 +254,7 @@
 {
   "_id":{"$oid":"000000000000000000000024"},
   "name":"aladdin's",
+  "attendees": [],
   "neighborhood":"elliston place",
   "monday":["900","1200", "half price beer and $8 hookah"],
   "tuesday":["900","1200", "half price beer and $8 hookah"],
@@ -243,6 +267,7 @@
 {
   "_id":{"$oid":"000000000000000000000025"},
   "name":"hurry back",
+  "attendees": [],
   "neighborhood":"elliston place",
   "monday":["720","1080", "$1 off low","gravity beers"],
   "tuesday":["720","1080", "2 for 1 local brews"],
@@ -253,6 +278,7 @@
 {
   "_id":{"$oid":"000000000000000000000026"},
   "name":"germantown cafe",
+  "attendees": [],
   "neighborhood":"germantown",
   "monday":["900","1140", "$1 off house liquor, wine, and beer, $5 app specials"],
   "tuesday":["900","1140", "$1 off house liquor, wine, and beer, $5 app specials"],
@@ -263,12 +289,14 @@
 {
   "_id":{"$oid":"000000000000000000000027"},
   "name":"mad platter",
+  "attendees": [],
   "neighborhood":"germantown",
   "thursday":["960","1140", "$5 select red and white wines, 2","for","1 beers and discount apps"]
 }
 {
   "_id":{"$oid":"000000000000000000000028"},
   "name":"alegria",
+  "attendees": [],
   "neighborhood":"green hills",
   "monday":["870","1110", "2 for 1 house margaritas and draft beers, $5 house wines and sangria"],
   "tuesday":["870","1110", "2 for 1 house margaritas and draft beers, $5 house wines and sangria"],
@@ -279,6 +307,7 @@
 {
   "_id":{"$oid":"000000000000000000000029"},
   "name":"crow's nest",
+  "attendees": [],
   "neighborhood":"green hills",
   "monday":["840","1140", "half off apps, beer, and well drinks"],
   "tuesday":["840","1140", "half off apps, beer, and well drinks"],
@@ -291,6 +320,7 @@
 {
   "_id":{"$oid":"000000000000000000000030"},
   "name":"jonathan's grille",
+  "attendees": [],
   "neighborhood":"green hills",
   "monday":["900","1080", "2 for 1 beers and double pours on house wines and liquor, plus $5 apps"],
   "tuesday":["all","", "2 for 1 beer and medium pizzas and double pours of house wines and single liquor drinks"],
@@ -303,6 +333,7 @@
 {
   "_id":{"$oid":"000000000000000000000031"},
   "name":"bar louie",
+  "attendees": [],
   "neighborhood":"gulch",
   "monday":["960","1140", "$3 draft beer, $4 house wines, $5 martinis and half off apps"],
   "tuesday":["960","1140", "$3 draft beer, $4 house wines, $5 martinis and half off apps"],
@@ -312,6 +343,7 @@
 {
   "_id":{"$oid":"000000000000000000000032"},
   "name":"city fire",
+  "attendees": [],
   "neighborhood":"gulch",
   "monday":["960","1110", "$2 domestic bottles, $3 wine, $4 draft beers, $5 call cocktails, $6 eclectic cocktails, sizzle chips, guacamole, and maui flat"],
   "tuesday":["960","1110", "$2 domestic bottles, $3 wine, $4 draft beers, $5 call cocktails, $6 eclectic cocktails, sizzle chips, guacamole, and maui flat"],
@@ -322,6 +354,7 @@
 {
   "_id":{"$oid":"000000000000000000000033"},
   "name":"rumours",
+  "attendees": [],
   "neighborhood":"gulch",
   "monday":["960","1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine"],
   "tuesday":["960","1140", "$2 off glasses of wine, $3 draughts, $5 off bottles of wine, 2","for","1 draughts"],
@@ -334,6 +367,7 @@
 {
   "_id":{"$oid":"000000000000000000000034"},
   "name":"the pub",
+  "attendees": [],
   "neighborhood":"gulch",
   "monday":["900","1140", "$4 select apps, $3 schooner draughts, $4 three olives vodka and premium well drinks, $5 select wines and $6 specialty martinis"],
   "tuesday":["900","1140", "$4 select apps, $3 schooner draughts, $4 three olives vodka and premium well drinks, $5 select wines and $6 specialty martinis"],
@@ -344,12 +378,14 @@
 {
   "_id":{"$oid":"000000000000000000000035"},
   "name":"pizza perfect",
+  "attendees": [],
   "neighborhood":"hillsboro village",
   "monday":["1020","1320", "2 for 1 slices and beer"]
 }
 {
   "_id":{"$oid":"000000000000000000000036"},
   "name":"belcourt taps",
+  "attendees": [],
   "neighborhood":"hillsboro village",
   "monday":["900","1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
   "tuesday":["900","1110", "$2.50 draft beers, $4 well drinks, and $1 off wine"],
@@ -362,6 +398,7 @@
 {
   "_id":{"$oid":"000000000000000000000037"},
   "name":"boca loca",
+  "attendees": [],
   "neighborhood":"hillsboro village",
   "monday":["900","1110", "$2 mexican beers, $3 margaritas, $4 select wines"],
   "tuesday":["900","1110", "$2 mexican beers, $3 margaritas, $4 select wines"],
@@ -372,6 +409,7 @@
 {
   "_id":{"$oid":"000000000000000000000038"},
   "name":"jackson's",
+  "attendees": [],
   "neighborhood":"hillsboro village",
   "monday":["660","1080", "2 for 1 beers, well, and call drinks"],
   "tuesday":["all","", "2 for 1 beers, well and call drinks"],
@@ -383,6 +421,7 @@
 {
   "_id":{"$oid":"000000000000000000000039"},
   "name":"kay bob's",
+  "attendees": [],
   "neighborhood":"hillsboro village",
   "tuesday":["900","1440", "2 for 1 wings"],
   "wednesday":["960","1140", "$6 growler refills"]
@@ -390,6 +429,7 @@
 {
   "_id":{"$oid":"000000000000000000000040"},
   "name":"sam's sports bar",
+  "attendees": [],
   "neighborhood":"hillsboro village",
   "monday":["900","1140", "happy hour pricing, trivia starts at 7:30"],
   "tuesday":["all","", "2 for 1 drinks"],
@@ -401,6 +441,7 @@
 {
   "_id":{"$oid":"000000000000000000000041"},
   "name":"sunset grill",
+  "attendees": [],
   "neighborhood":"hillsboro village",
   "monday":["990","1320", "half priced wines, cocktails, beers, and pizza plus $5 apps"],
   "tuesday":["990","1110", "half priced wines, cocktails, beers, and pizza plus $5 apps"],
@@ -412,6 +453,7 @@
 {
   "_id":{"$oid":"000000000000000000000042"},
   "name":"dog of nashville",
+  "attendees": [],
   "neighborhood":"hillsboro village",
   "monday":["900","1140", "$2 domestic beer and $2.50 craft beer"],
   "tuesday":["900","1140", "$2 domestic beer and $2.50 craft beer"],
@@ -422,6 +464,7 @@
 {
   "_id":{"$oid":"000000000000000000000043"},
   "name":"zumi sushi",
+  "attendees": [],
   "neighborhood":"hillsboro village",
   "monday":["900","1110", "$5 featured cocktails, $4 house wines, 2","for","1 draft and select bottled beer"],
   "tuesday":["900","1110", "$5 featured cocktails, $4 house wines, 2","for","1 draft and select bottled beer"],
@@ -433,6 +476,7 @@
 {
   "_id":{"$oid":"000000000000000000000044"},
   "name":"ml rose",
+  "attendees": [],
   "neighborhood":"melrose",
   "monday":["900","1080", "$1 off apps, beer, wine, and liquor"],
   "tuesday":["900","1080", "$1 off apps, beer, wine, and liquor"],
@@ -443,6 +487,7 @@
 {
   "_id":{"$oid":"000000000000000000000045"},
   "name":"sinema",
+  "attendees": [],
   "neighborhood":"melrose",
   "monday":["990","1110", "$8 select craft cocktails and $1 off well drinks and beer"],
   "tuesday":["990","1440", "2 for 1 well drinks and domestic bottled beers"],
@@ -452,6 +497,7 @@
 {
   "_id":{"$oid":"000000000000000000000046"},
   "name":"the sutler",
+  "attendees": [],
   "neighborhood":"melrose",
   "monday":["990","1110", "half off all craft cocktails, draft beer, and well drinks and $1 off glasses of wine"],
   "tuesday":["990","1110", "half off all craft cocktails, draft beer, and well drinks and $1 off glasses of wine"],
@@ -462,6 +508,7 @@
 {
   "_id":{"$oid":"000000000000000000000047"},
   "name":"boundry",
+  "attendees": [],
   "neighborhood":"midtown",
   "monday":["960","1140", "half priced select cocktails, local brews, select wines and $5 select apps"],
   "tuesday":["960","1140", "half priced select cocktails, local brews, select wines and $5 select apps"],
@@ -472,6 +519,7 @@
 {
   "_id":{"$oid":"000000000000000000000048"},
   "name":"mellow mushroom",
+  "attendees": [],
   "neighborhood":"midtown",
   "monday":["900","1200", "half priced drafts and apps, $1 off select domestic bottles, house wine, and well drinks"],
   "tuesday":["900","1200", "half priced drafts and apps, $1 off select domestic bottles, house wine, and well drinks"],
@@ -482,6 +530,7 @@
 {
   "_id":{"$oid":"000000000000000000000049"},
   "name":"soulshine",
+  "attendees": [],
   "neighborhood":"midtown",
   "monday":["900","1080", "$1 off everything"],
   "tuesday":["900","1080", "$1 off everything"],
@@ -492,6 +541,7 @@
 {
   "_id":{"$oid":"000000000000000000000050"},
   "name":"the row",
+  "attendees": [],
   "neighborhood":"midtown",
   "monday":["960","1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
   "tuesday":["960","1080", "$3 hap n harrys, $4.50 house wine, $1 off well pours"],
@@ -504,6 +554,7 @@
 {
   "_id":{"$oid":"000000000000000000000051"},
   "name":"etch",
+  "attendees": [],
   "neighborhood":"sobro",
   "monday":["960","1110", "$8 apps, $4 craft drafts, $5 wines, and $6 select cocktails"],
   "tuesday":["960","1110", "$8 apps, $4 craft drafts, $5 wines, and $6 select cocktails"],
@@ -514,6 +565,7 @@
 {
   "_id":{"$oid":"000000000000000000000052"},
   "name":"listening room cafe",
+  "attendees": [],
   "neighborhood":"sobro",
   "monday":["660","1080", "2 for 1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
   "tuesday":["660","1080", "2 for 1 well drinks, $1 off house wines and domestic beers, $2.50 listening room draft"],
@@ -525,6 +577,7 @@
 {
   "_id":{"$oid":"000000000000000000000053"},
   "name":"coco's italian market",
+  "attendees": [],
   "neighborhood":"sylvan park",
   "monday":["900","1080", "$3 select draft beers, $4 imported italian wines, $1 off espresso drinks and desserts"],
   "tuesday":["all","", "$1 draft with any pizza"],
@@ -535,6 +588,7 @@
 {
   "_id":{"$oid":"000000000000000000000054"},
   "name":"ml rose",
+  "attendees": [],
   "neighborhood":"sylvan park",
   "monday":["900","1080", "$1 off apps, liquor, wine, and beer"],
   "tuesday":["900","1080", "$1 off apps, liquor, wine, and beer"],
@@ -545,6 +599,7 @@
 {
   "_id":{"$oid":"000000000000000000000055"},
   "name":"park cafe",
+  "attendees": [],
   "neighborhood":"sylvan park",
   "monday":["990","1110", "$5 specialty cocktails, glasses of wine, and bar menu items"],
   "tuesday":["990","1110", "$5 specialty cocktails, glasses of wine, and bar menu items"],
@@ -556,6 +611,7 @@
 {
   "_id":{"$oid":"000000000000000000000056"},
   "name":"stone fox",
+  "attendees": [],
   "neighborhood":"sylvan park",
   "monday":["1020","1140", "2 for 1 well drinks and most drafts, $6 select small plates"],
   "tuesday":["1020","1140", "2 for 1 well drinks and most drafts, $6 select small plates"],
@@ -566,6 +622,7 @@
 {
   "_id":{"$oid":"000000000000000000000057"},
   "name":"amerigo",
+  "attendees": [],
   "neighborhood":"west end",
   "monday":["960","1080", "$3 craft beer, $4 wine, $5 craft cocktails"],
   "tuesday":["960","1080", "$3 craft beer, $4 wine, $5 craft cocktails"],
@@ -576,6 +633,7 @@
 {
   "_id":{"$oid":"000000000000000000000058"},
   "name":"commodore grill",
+  "attendees": [],
   "neighborhood":"west end",
   "monday":["1020","1140", "$5 apps and cocktails, $3 beers"],
   "tuesday":["1020","1140", "$5 apps and cocktails, $3 beers"],
@@ -586,6 +644,7 @@
 {
   "_id":{"$oid":"000000000000000000000059"},
   "name":"jed's",
+  "attendees": [],
   "neighborhood":"west end",
   "monday":["840","1080", "$4 well drinks, $1 off beers, and $5 red bull vodkas"],
   "tuesday":["all","", "2 for 1 beer"],
@@ -598,6 +657,7 @@
 {
   "_id":{"$oid":"000000000000000000000060"},
   "name":"sitar",
+  "attendees": [],
   "neighborhood":"west end",
   "tuesday":["1020","1080", "2 for 1 wine and half priced select apps"],
   "wednesday":["1020","1080", "2 for 1 wine and half priced select apps"]
@@ -605,6 +665,7 @@
 {
   "_id":{"$oid":"000000000000000000000061"},
   "name":"viener fest",
+  "attendees": [],
   "neighborhood":"west end",
   "tuesday":["900","1140", "2 for 1 bottled beer, glasses of wine, and mixed drinks"],
   "wednesday":["900","1140", "2 for 1 bottled beer, glasses of wine, and mixed drinks"],

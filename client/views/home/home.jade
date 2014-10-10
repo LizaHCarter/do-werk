@@ -1,17 +1,16 @@
-h3#today {{type}}
+h4 {{type1}}
 
-button.btn.btn-default.pull-right(ng-click='tableParams.sorting({})') Clear sorting
-button.btn.btn-default.pull-right(ng-click='tableParams.filter({})') Clear filter
-p
-  strong Sorting:
-  | {{tableParams.sorting()|json}}
-p
-  strong Filter:
-  | {{tableParams.filter()|json}}
-table.table(ng-table='tableParams', show-filter='true')
-  tr(ng-repeat='user in $data')
-    td(data-title='\'name\'', sortable='\'name\'', filter='{ \'name\': \'text\' }') {{user.name}}
-    td(data-title='\'time\'', sortable='\'{{date}}[0]\'') {{(user[date][0]) === 'all' ? 'all day' : ((user[date][0]/60) > 12 ? (user[date][0]/60 - 12) : (user[date][0]/60)) +'-'+ (user[date][1]/60 - 12)}}
-    td(data-title='\'what\'', filter='{ \'{{date}}[2]\': \'text\' }') {{user[date][2]}}
+button(ng-click='showPanel()') see today's happy hours
+
+.panel.panel-default(ng-show='hidePanel')
+  .panel-body
+    h3#today {{type}}
+
+    table.table(ng-table='tableParams', show-filter='false')
+      tr(ng-repeat='user in $data')
+        td(data-title='\'name\'', sortable='\'name\''): a(href='/#/happyhours/{{user._id}}') {{user.name}}
+        td(data-title='\'time\'') {{(user[date][0]) === 'all' ? 'all day' : ((user[date][0]/60) > 12 ? (user[date][0]/60 - 12) : (user[date][0]/60)) +'-'+ (user[date][1]/60 - 12)}}
+        td(data-title='\'what\'') {{user[date][2]}}
+        td(data-title='\'regulars\'') {{user.attendees.length}}
 
 

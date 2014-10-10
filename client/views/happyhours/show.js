@@ -6,11 +6,14 @@
     $scope.happyhour = {};
 
     happyHour.findById($routeParams.id).then(function(response){
+      $scope.regulars = response.data.happyhour.attendees;
       debugger;
       $scope.happyhour = response.data.happyhour;
-      $scope.loc = response.data.happyhour.name.split(' ').join('-');
-      console.log($scope.loc);
-      console.log('setting location');
+      $scope.$watch('happyhour', function(neew, old){
+        $scope.loc = response.data.happyhour.name.split(' ').join('-');
+        console.log($scope.loc);
+        console.log('setting location');
+      });
     });
 
   }]);

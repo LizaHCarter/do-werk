@@ -1,11 +1,14 @@
-h3 {{happyhour.name}}
-h4 {{happyhour.neighborhood}}
+h3 {{happyhour.name}} &nbsp
+span
+  h4 {{happyhour.neighborhood}}
 
 div(lc-restaurant, business='{{loc}}')
 
+h5 regulars:  {{regulars}}
+
 h5 happy hours
 
-table.table.table-bordered.table-responsive(ng-if='title')
+table.table.table-bordered.table-responsive
   thead
     tr
       th day
@@ -15,28 +18,28 @@ table.table.table-bordered.table-responsive(ng-if='title')
     tr
       td monday
       td {{happyhour.monday[0]=== 'all' ? 'all day' : ((happyhour.monday[0]/60) > 12 ? (happyhour.monday[0]/60 - 12) : (happyhour.monday[0]/60)) +'-'+ (happyhour.monday[1]/60 - 12)}}
-      td {{happyhour.monday[2]}}
+      td {{happyhour.monday[2] != null ? (happyhour.monday[2]) : 'no deals today'}}
     tr
       td tuesday
       td {{happyhour.tuesday[0]=== 'all' ? 'all day' : ((happyhour.tuesday[0]/60) > 12 ? (happyhour.tuesday[0]/60 - 12) : (happyhour.tuesday[0]/60)) +'-'+ (happyhour.tuesday[1]/60 - 12)}}
-      td {{happyhour.tuesday[2]}}
+      td {{happyhour.tuesday[2] != null ? (happyhour.tuesday[2]) : 'no deals today'}}
     tr
       td wednesday
       td {{happyhour.wednesday[0]=== 'all' ? 'all day' : ((happyhour.wednesday[0]/60) > 12 ? (happyhour.wednesday[0]/60 - 12) : (happyhour.wednesday[0]/60)) +'-'+ (happyhour.wednesday[1]/60 - 12)}}
-      td {{happyhour.wednesday[2]}}
+      td {{happyhour.wednesday[2] != null  ? (happyhour.wednesday[2]) : 'no deals today'}}
     tr
       td thursday
       td {{happyhour.thursday[0]=== 'all' ? 'all day' : ((happyhour.thursday[0]/60) > 12 ? (happyhour.thursday[0]/60 - 12) : (happyhour.thursday[0]/60)) +'-'+ (happyhour.thursday[1]/60 - 12)}}
-      td {{happyhour.thursday[2]}}
+      td {{happyhour.thursday[2] != null ? (happyhour.thursday[2]) : 'no deals today'}}
     tr
       td friday
       td {{happyhour.friday[0]=== 'all' ? 'all day' : ((happyhour.friday[0]/60) > 12 ? (happyhour.friday[0]/60 - 12) : (happyhour.friday[0]/60)) +'-'+ (happyhour.friday[1]/60 - 12)}}
-      td {{happyhour.friday[2]}}
+      td {{happyhour.friday[2] != null  ? (happyhour.friday[2]) : 'no deals today'}}
     tr
       td saturday
       td {{happyhour.saturday[0]=== 'all' ? 'all day' : ((happyhour.saturday[0]/60) > 12 ? (happyhour.saturday[0]/60 - 12) : (happyhour.saturday[0]/60)) +'-'+ (happyhour.saturday[1]/60 - 12)}}
-      td {{happyhour.saturday[2]}}
+      td {{happyhour.saturday[2] != null  ? (happyhour.saturday[2]) : 'no deals today'}}
     tr
       td sunday
       td {{happyhour.sunday[0]=== 'all' ? 'all day' : ((happyhour.sunday[0]/60) > 12 ? (happyhour.sunday[0]/60 - 12) : (happyhour.sunday[0]/60)) +'-'+ (happyhour.sunday[1]/60 - 12)}}
-      td {{happyhour.sunday[2]}}
+      td {{happyhour.sunday[2] != null  ? (happyhour.sunday[2]) : 'no deals today'}}

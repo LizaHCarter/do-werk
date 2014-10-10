@@ -16,7 +16,7 @@
           $interval.cancel(timer);}
         i++;
         $scope.$apply();
-      }, 100),
+      }, 200),
       data = [];
     happyHour.all().then(function(response){
       $scope.happyhours = response.data.happyhours;
