@@ -1,14 +1,14 @@
-h4 {{type1}}
+h4#greeting {{type1}}
 
-button(ng-click='showPanel()') see today's happy hours
+button.button.button-default(ng-click='showPanel()') see today's happy hours
 
 .panel.panel-default(ng-show='hidePanel')
   .panel-body
     h3#today {{type}}
 
     table.table(ng-table='tableParams', show-filter='false')
-      tr(ng-repeat='user in $data')
-        td(data-title='\'name\'', sortable='\'name\''): a(href='/#/happyhours/{{user._id}}') {{user.name}}
+      tr(ng-repeat='user in $data', style='color: black')
+        td(data-title='\'name\'', sortable='\'name\''): a(href='/#/happyhours/{{user._id}}', style='color: black') {{user.name}}
         td(data-title='\'time\'') {{(user[date][0]) === 'all' ? 'all day' : ((user[date][0]/60) > 12 ? (user[date][0]/60 - 12) : (user[date][0]/60)) +'-'+ (user[date][1]/60 - 12)}}
         td(data-title='\'what\'') {{user[date][2]}}
         td(data-title='\'regulars\'') {{user.attendees.length}}

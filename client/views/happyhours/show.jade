@@ -1,12 +1,12 @@
-h3 {{happyhour.name}} &nbsp
+h3#show {{happyhour.name}} &nbsp
 span
-  h4 {{happyhour.neighborhood}}
+  h4#neighborhood {{happyhour.neighborhood}}
 
-div(lc-restaurant, business='{{loc}}')
+div#api(lc-restaurant, business='{{loc}}')
 
 h5 regulars:  {{regulars}}
 
-h5 happy hours
+h4#list happy hours
 
 table.table.table-bordered.table-responsive
   thead

@@ -3,12 +3,12 @@ h3 {{type}}
 .row
   .col-xs-2
   .col-xs-8
-    table.table(ng-table='tableParams')
+    table.table(ng-table='tableParams')#all
         tbody(ng-repeat='group in $groups')
             tr.ng-table-group
               td(colspan='{{$columns.length}}')
                 a(href='', ng-click='group.$hideRows = !group.$hideRows')
                   span.glyphicon(ng-class='{ \'glyphicon-chevron-down\': group.$hideRows, \'glyphicon-chevron-right\': !group.$hideRows }') &nbsp
                   strong {{ group.value }}
-            tr(ng-show='group.$hideRows', ng-repeat='user in group.data')
+            tr(ng-show='group.$hideRows', ng-repeat='user in group.data')#data
               td(sortable='name'): a(href='/#/happyhours/{{user._id}}') {{user.name}}

@@ -7,7 +7,6 @@
 
     happyHour.findById($routeParams.id).then(function(response){
       $scope.regulars = response.data.happyhour.attendees;
-      debugger;
       $scope.happyhour = response.data.happyhour;
       $scope.$watch('happyhour', function(neew, old){
         $scope.loc = response.data.happyhour.name.split(' ').join('-');
